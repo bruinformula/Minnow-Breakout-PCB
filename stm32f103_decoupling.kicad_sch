@@ -1,0 +1,1380 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0526667f-56cf-4fcd-be47-50fa28d1253c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "bfr_capacitors:06035C104KAT2A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "100n"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0603 Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=P1 2=P2"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/06035C104KAT2A.lib"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Name" "06035C104KAT2A"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pretty Name" "100nF 16V 0603 Capacitor"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Qty/Unit" ""
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost/Unit" ""
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order From" "LCSC"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey P/N" "478-KGM15BR71H104KTCT-ND"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser P/N" "581-06035C104KAT2A"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC P/N" "C14663"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Basic Part" "Yes"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Created by" "capacitor_generator.py script using capacitor_bible_spec.txt"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "06035C104KAT2A_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "06035C104KAT2A_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 128.27 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ddfeddb-ed30-4316-82de-98b242d5738d")
+	)
+	(junction
+		(at 152.4 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e5a52fd-399e-4d86-994e-3351642522f9")
+	)
+	(junction
+		(at 116.84 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "824262de-922e-4754-9716-03ad3e4fccbd")
+	)
+	(junction
+		(at 128.27 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85082fc8-00c4-4b7f-a059-52c627357136")
+	)
+	(junction
+		(at 140.97 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a23b4c56-cfd0-49d0-9799-da18fbea3503")
+	)
+	(junction
+		(at 116.84 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa5b3a0f-c144-4aba-85d2-ee30ae45b55d")
+	)
+	(junction
+		(at 140.97 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b282386d-ce62-4cfd-8d33-7dac6f0f77bf")
+	)
+	(wire
+		(pts
+			(xy 152.4 80.01) (xy 140.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179af242-5e1c-4d94-b5db-9b1b2a43ed8e")
+	)
+	(wire
+		(pts
+			(xy 128.27 80.01) (xy 116.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369eb48a-abb7-43a9-911e-fb496794997d")
+	)
+	(wire
+		(pts
+			(xy 140.97 87.63) (xy 152.4 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48719d0a-47bc-4a79-8153-c3b91a39e233")
+	)
+	(wire
+		(pts
+			(xy 106.68 87.63) (xy 106.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7001ca0c-8344-4a6b-b5af-5603628ae759")
+	)
+	(wire
+		(pts
+			(xy 106.68 87.63) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eaf198f-c476-43d3-a5cd-a63d5dd69dee")
+	)
+	(wire
+		(pts
+			(xy 104.14 72.39) (xy 106.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab141ef-ae14-4597-a701-68880250f826")
+	)
+	(wire
+		(pts
+			(xy 116.84 87.63) (xy 128.27 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e047ab7-2f2a-465d-91dd-28d08c1ca92c")
+	)
+	(wire
+		(pts
+			(xy 106.68 80.01) (xy 106.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9189e091-c61b-4443-99fc-af3d06a8a2a7")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94994e66-86d0-45c0-9212-c0da7c23002f")
+	)
+	(wire
+		(pts
+			(xy 140.97 80.01) (xy 128.27 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf9b0b20-94c0-4b20-9941-cfb237826211")
+	)
+	(wire
+		(pts
+			(xy 152.4 72.39) (xy 156.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca162e1-ac7e-443e-8d56-4ad168a6dc63")
+	)
+	(wire
+		(pts
+			(xy 152.4 72.39) (xy 152.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd23ddb3-2fe7-4708-92f2-4321ac65359f")
+	)
+	(wire
+		(pts
+			(xy 116.84 80.01) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdde3012-0f48-4a02-9bfb-02aab2b70702")
+	)
+	(hierarchical_label "+3V3_MCU"
+		(shape input)
+		(at 156.21 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10f98553-92bc-4385-9aa2-6e82e49e2d87")
+	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 104.14 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cacde074-8597-4e86-978f-66cc54aba065")
+	)
+	(symbol
+		(lib_id "bfr_capacitors:06035C104KAT2A")
+		(at 116.84 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6360187f-52b8-4f22-bc6b-288c4ba57e24")
+		(property "Reference" "C1101"
+			(at 120.65 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 120.65 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 116.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0603 Capacitor"
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 116.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 116.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/06035C104KAT2A.lib"
+			(at 116.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "06035C104KAT2A"
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "100nF 16V 0603 Capacitor"
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 116.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "478-KGM15BR71H104KTCT-ND"
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "581-06035C104KAT2A"
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "capacitor_generator.py script using capacitor_bible_spec.txt"
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df257cd7-dfbf-4501-99bb-f37d677e6308")
+		)
+		(pin "2"
+			(uuid "69fe870d-7294-47be-9b46-a17549afbb33")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/9ff1ecd3-a37e-412a-8137-f8c13bf243c7"
+					(reference "C1101")
+					(unit 1)
+				)
+			)
+			(project "STM32F446 breakout V1 - Garibaldi"
+				(path "/6c37e641-6488-4ca1-9b36-326ba4e05a40/e3e74f47-7470-4558-b6f7-5225f0dc3823/9ff1ecd3-a37e-412a-8137-f8c13bf243c7"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dc595d8-509b-462e-be47-1eef1e2fe9be")
+		(property "Reference" "#PWR01101"
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "179f07ac-69e6-41c4-b488-c1e12a418b07")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/9ff1ecd3-a37e-412a-8137-f8c13bf243c7"
+					(reference "#PWR01101")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/6c37e641-6488-4ca1-9b36-326ba4e05a40/e3e74f47-7470-4558-b6f7-5225f0dc3823/9ff1ecd3-a37e-412a-8137-f8c13bf243c7"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_capacitors:06035C104KAT2A")
+		(at 140.97 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8195f4c7-ac31-4bf4-94c3-d05d1c32f2c4")
+		(property "Reference" "C1103"
+			(at 144.78 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 144.78 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0603 Capacitor"
+			(at 140.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/06035C104KAT2A.lib"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "06035C104KAT2A"
+			(at 140.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "100nF 16V 0603 Capacitor"
+			(at 140.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 140.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "478-KGM15BR71H104KTCT-ND"
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "581-06035C104KAT2A"
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "capacitor_generator.py script using capacitor_bible_spec.txt"
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b2691b6-0c2b-4cf5-a27b-513dd50e5380")
+		)
+		(pin "2"
+			(uuid "56d8d313-87bc-499e-97b7-331e2cd60698")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/9ff1ecd3-a37e-412a-8137-f8c13bf243c7"
+					(reference "C1103")
+					(unit 1)
+				)
+			)
+			(project "STM32F446 breakout V1 - Garibaldi"
+				(path "/6c37e641-6488-4ca1-9b36-326ba4e05a40/e3e74f47-7470-4558-b6f7-5225f0dc3823/9ff1ecd3-a37e-412a-8137-f8c13bf243c7"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_capacitors:06035C104KAT2A")
+		(at 128.27 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4a8a318-c6a5-4df8-91c8-a397d145fc89")
+		(property "Reference" "C1102"
+			(at 132.08 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 132.08 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0603 Capacitor"
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 128.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/06035C104KAT2A.lib"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "06035C104KAT2A"
+			(at 128.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "100nF 16V 0603 Capacitor"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 128.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 128.27 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "478-KGM15BR71H104KTCT-ND"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "581-06035C104KAT2A"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "capacitor_generator.py script using capacitor_bible_spec.txt"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0608daf5-f945-40e2-9fa7-6cca9060ce78")
+		)
+		(pin "2"
+			(uuid "6b8f5c8a-0d8c-4934-b3dd-25453655e778")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/9ff1ecd3-a37e-412a-8137-f8c13bf243c7"
+					(reference "C1102")
+					(unit 1)
+				)
+			)
+			(project "STM32F446 breakout V1 - Garibaldi"
+				(path "/6c37e641-6488-4ca1-9b36-326ba4e05a40/e3e74f47-7470-4558-b6f7-5225f0dc3823/9ff1ecd3-a37e-412a-8137-f8c13bf243c7"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_capacitors:06035C104KAT2A")
+		(at 152.4 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efb69da5-0e4a-4c42-b897-7635ad5aeb1d")
+		(property "Reference" "C1104"
+			(at 156.21 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 156.21 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0603 Capacitor"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/06035C104KAT2A.lib"
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "06035C104KAT2A"
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "100nF 16V 0603 Capacitor"
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 152.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "478-KGM15BR71H104KTCT-ND"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "581-06035C104KAT2A"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "capacitor_generator.py script using capacitor_bible_spec.txt"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a2c70fd-4b84-46e7-a0b9-fd37c933226e")
+		)
+		(pin "2"
+			(uuid "0a941c05-3c5c-4335-a0c1-afa8aeb6b271")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/9ff1ecd3-a37e-412a-8137-f8c13bf243c7"
+					(reference "C1104")
+					(unit 1)
+				)
+			)
+			(project "STM32F446 breakout V1 - Garibaldi"
+				(path "/6c37e641-6488-4ca1-9b36-326ba4e05a40/e3e74f47-7470-4558-b6f7-5225f0dc3823/9ff1ecd3-a37e-412a-8137-f8c13bf243c7"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

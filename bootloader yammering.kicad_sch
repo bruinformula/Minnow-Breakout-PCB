@@ -1,0 +1,95 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "da4b3bf3-2076-4135-8197-82b0a45c600a")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 20.32 19.05)
+		(end 142.24 36.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a1407ea6-c7ba-4c33-ab60-05c8b5634a4d)
+	)
+	(text "LINKS"
+		(exclude_from_sim no)
+		(at 22.86 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18e63687-7aa5-4870-bd5f-68d977ecf519")
+	)
+	(text "stlink open source library (??)"
+		(exclude_from_sim no)
+		(at 36.83 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://github.com/stlink-org/stlink/tree/testing")
+		)
+		(uuid "3fa9c08a-abb7-4cdf-94b5-426e558e1680")
+	)
+	(text "stm32 can bootloader notes"
+		(exclude_from_sim no)
+		(at 35.56 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.st.com/resource/en/application_note/an3154-can-protocol-used-in-the-stm32-bootloader-stmicroelectronics.pdf")
+		)
+		(uuid "488d93e8-0d93-4807-a140-2e459384ccea")
+	)
+	(text "STM32 AN2606 bootloader config"
+		(exclude_from_sim no)
+		(at 37.846 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.st.com/resource/en/application_note/an2606-stm32-microcontroller-system-memory-boot-mode-stmicroelectronics.pdf")
+		)
+		(uuid "89f0ff3d-4432-4052-b296-df69170919a3")
+	)
+	(text "ideally workflow when uwanna program is like\ncar on\nplug CANadapter into loop\nload whatever diagnostic data or send some CAN frame that says \"i wanna program board w ID ____\" with a GUI ideally\nif program:\nboard returns ACK message w/ any other diag info that would be useful\nreboot/program the MCU"
+		(exclude_from_sim no)
+		(at 19.05 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bedc337f-0430-4a28-aaf4-6cff2f68ab9f")
+	)
+	(text "ok so theoretically F4s already have a CAN bootloader programmed in\n\nuhhhhhhhh (not an3154) iirc there's some like flowchart that says it boots everything up, goes thru diff bootloaders\n(i forget what the order is but CAN is last) and u want a frame on any ID, but an3514 says it has to have a HSE input\nthen u want a GET/GO frame specifically at ID = 0x79 \"without frame error\"\n\ngoes at 125kbps?????????? check\n\n"
+		(exclude_from_sim no)
+		(at 73.66 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0992be1-579e-4592-9d5c-c08fd39f5659")
+	)
+	(text "ISSUES:\nprogram loop + main comm loop? or just 1 loop?\noffload programming to STLINK or no?\n"
+		(exclude_from_sim no)
+		(at 67.31 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0a09a4e-2020-4701-8135-b33affe5e8a7")
+	)
+)
