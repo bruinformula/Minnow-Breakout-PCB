@@ -623,7 +623,7 @@
       "bootloader yammering"
     ],
     [
-      "36677952-db68-4370-87fc-67a2e82899d4",
+      "c9adf87a-8f92-44b6-917f-4b9ab2f21739",
       "CAN Transciever"
     ],
     [
@@ -633,6 +633,10 @@
     [
       "1fd5f710-41e6-41fc-bdad-b4f48a0bb820",
       "NOR Flash"
+    ],
+    [
+      "b0673764-f834-4bf8-b959-8d6fdaf9c45c",
+      "NORFLASH Select"
     ],
     [
       "ef959e01-aa9b-4526-a9a5-a5bcea1528e7",

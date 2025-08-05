@@ -1759,7 +1759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2260726d-7a02-4037-b99c-fba68b77585d")
-		(property "Reference" "U701"
+		(property "Reference" "U?"
 			(at 130.4133 72.39 0)
 			(effects
 				(font
@@ -1805,28 +1805,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "599603cf-fbeb-4e54-838a-e6df537ce61a")
+			(uuid "b132d2e7-b92c-46e3-97a6-cfcae87a7ee4")
 		)
 		(pin "2"
-			(uuid "cdfa9b9f-d9ea-4cf7-b531-c67f4be59794")
+			(uuid "3f2a1aa0-1211-488a-95f7-69b588a4ae39")
 		)
 		(pin "4"
-			(uuid "97032590-b2a1-4f2d-bbaf-d66cacc508ce")
+			(uuid "6ccb6c05-048a-435e-9945-d48d150e63bf")
 		)
 		(pin "6"
-			(uuid "f86b39c0-0c72-4866-84d5-55e4133e9b55")
+			(uuid "46f5826f-d997-4c55-873e-259a931e273f")
 		)
 		(pin "8"
-			(uuid "6c45437d-a5d8-46c0-bf21-b97a00e2d5ba")
+			(uuid "61a94811-4d35-4373-9351-a54f2e0ff9a6")
 		)
 		(pin "3"
-			(uuid "07464d34-eeed-4d0b-a835-224ce8e08633")
+			(uuid "f108c7ad-a4fe-4f08-a639-b161edf89e35")
 		)
 		(pin "1"
-			(uuid "16c1af6c-ea39-425f-bba6-1c67279a13f7")
+			(uuid "84d10e18-3559-43af-96ba-8d1b6007daec")
 		)
 		(pin "7"
-			(uuid "432e2bb9-bab6-49a0-bd2b-4a52f6ecafd9")
+			(uuid "e80a4ce8-5308-4d46-9753-468d2ac921a2")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
@@ -1834,8 +1834,8 @@
 					(reference "U1001")
 					(unit 1)
 				)
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/a5605b2d-f7ac-45f3-aba3-2f27c488895b/36677952-db68-4370-87fc-67a2e82899d4"
-					(reference "U701")
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -1851,7 +1851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d3c47bc-8cd0-4401-965b-2cfbe75ce1ee")
-		(property "Reference" "Q701"
+		(property "Reference" "Q?"
 			(at 200.66 73.6599 0)
 			(effects
 				(font
@@ -1900,13 +1900,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a20907f-fa42-4e42-92a3-bf5eafe25077")
+			(uuid "295232a8-1907-4e49-acc1-1e95f75e82df")
 		)
 		(pin "3"
-			(uuid "07ecc39a-79b8-479d-b926-10d196bbcdab")
+			(uuid "1fb1b885-55b9-4f3b-a51e-706a3e0aab34")
 		)
 		(pin "2"
-			(uuid "fe7b006e-c563-4d22-9dba-926c1f0bfc84")
+			(uuid "f779de29-bb2c-4838-8de6-120dc812d40f")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
@@ -1914,8 +1914,8 @@
 					(reference "Q1001")
 					(unit 1)
 				)
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/a5605b2d-f7ac-45f3-aba3-2f27c488895b/36677952-db68-4370-87fc-67a2e82899d4"
-					(reference "Q701")
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
+					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -1976,7 +1976,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f6127247-3caf-4719-a3e7-8b3d765084fb")
+			(uuid "2df07815-eae4-4570-b383-20090dd8d4fc")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
@@ -1984,7 +1984,7 @@
 					(reference "#PWR01003")
 					(unit 1)
 				)
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/a5605b2d-f7ac-45f3-aba3-2f27c488895b/36677952-db68-4370-87fc-67a2e82899d4"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
 					(reference "#PWR0703")
 					(unit 1)
 				)
@@ -2001,7 +2001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f57eb8d-6283-4eed-bbe3-2699931b8ce1")
-		(property "Reference" "C701"
+		(property "Reference" "C?"
 			(at 108.458 64.262 0)
 			(effects
 				(font
@@ -2209,10 +2209,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5f6b7d1-2f64-4aae-b6d1-4a67a683ff0a")
+			(uuid "30935dcf-5d74-421b-95f9-65c587441525")
 		)
 		(pin "2"
-			(uuid "700da693-5ebe-49de-87bf-4fc33aadedbf")
+			(uuid "afa3bc50-7c1b-44e3-b579-7738ad6832a8")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
@@ -2220,8 +2220,8 @@
 					(reference "C1001")
 					(unit 1)
 				)
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/a5605b2d-f7ac-45f3-aba3-2f27c488895b/36677952-db68-4370-87fc-67a2e82899d4"
-					(reference "C701")
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -2282,7 +2282,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b845ed14-fd05-410d-82a2-7177e3683c79")
+			(uuid "bcd5a26a-21b3-4793-8589-0c2e47330b91")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
@@ -2290,7 +2290,7 @@
 					(reference "#PWR01001")
 					(unit 1)
 				)
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/a5605b2d-f7ac-45f3-aba3-2f27c488895b/36677952-db68-4370-87fc-67a2e82899d4"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
 					(reference "#PWR0701")
 					(unit 1)
 				)
@@ -2307,7 +2307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c5401f8-6105-4be2-99cd-5e7dfc6bd530")
-		(property "Reference" "C702"
+		(property "Reference" "C?"
 			(at 107.442 93.726 0)
 			(effects
 				(font
@@ -2506,10 +2506,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93caff4f-a3b5-45c1-b216-70cf641a5487")
+			(uuid "8dd8351c-231e-4f9e-a9f3-e665221d9fab")
 		)
 		(pin "2"
-			(uuid "188ed876-e58f-4058-84f9-500a7e9a3e9b")
+			(uuid "42ccf7a9-22a5-498e-8b97-fe72876a0cb4")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
@@ -2517,8 +2517,8 @@
 					(reference "C1002")
 					(unit 1)
 				)
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/a5605b2d-f7ac-45f3-aba3-2f27c488895b/36677952-db68-4370-87fc-67a2e82899d4"
-					(reference "C702")
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -2579,7 +2579,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ae3fdc2-8c60-467a-8842-74fb6cb98130")
+			(uuid "0ba016de-7df5-416a-a5ce-c3b9dd6552ba")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
@@ -2587,7 +2587,7 @@
 					(reference "#PWR01002")
 					(unit 1)
 				)
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/a5605b2d-f7ac-45f3-aba3-2f27c488895b/36677952-db68-4370-87fc-67a2e82899d4"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
 					(reference "#PWR0702")
 					(unit 1)
 				)
@@ -2604,7 +2604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5e169b7-3f69-4633-b759-1dda123b7652")
-		(property "Reference" "R701"
+		(property "Reference" "R?"
 			(at 199.39 83.8199 90)
 			(effects
 				(font
@@ -2767,10 +2767,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "27103f66-db36-47c1-897f-0fa3dd603552")
+			(uuid "7d97bf6b-4a72-4d8e-89ee-39abb5f0cfd4")
 		)
 		(pin "2"
-			(uuid "b1e22f66-6bf6-443b-a7a6-fa450c566d81")
+			(uuid "25ecb3d2-c2c8-4aa6-bdde-233dd18d228b")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
@@ -2778,8 +2778,8 @@
 					(reference "R1001")
 					(unit 1)
 				)
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/a5605b2d-f7ac-45f3-aba3-2f27c488895b/36677952-db68-4370-87fc-67a2e82899d4"
-					(reference "R701")
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
+					(reference "R?")
 					(unit 1)
 				)
 			)
