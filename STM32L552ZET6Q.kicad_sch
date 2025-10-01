@@ -3911,168 +3911,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:SolderJumper_3_Bridged12"
 			(pin_names
 				(offset 0)
@@ -9343,238 +9181,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bfr_capacitors:CL05A105KA5NQNC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "1u"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1uF±10% X5R 25V JLCPCB Basic 0402 Capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=P1 2=P2"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05A105KA5NQNC.lib"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "CL05A105KA5NQNC"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Pretty Name" "1uF X5R 25V 0402 Capacitor"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Qty/Unit" ""
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost/Unit" ""
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Order From" "LCSC"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey P/N" ""
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser P/N" ""
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC P/N" "C52923"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Basic Part" "Yes"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL05A105KA5NQNC_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CL05A105KA5NQNC_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bfr_capacitors:CL05B104KB54PNC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9768,238 +9374,6 @@
 				)
 			)
 			(symbol "CL05B104KB54PNC_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "bfr_capacitors:CL10A106MA8NRNC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "10u"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "10uF±20% X5R 25V JLCPCB Basic 0603 Capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=P1 2=P2"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL10A106MA8NRNC.lib"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "CL10A106MA8NRNC"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Pretty Name" "10uF X5R 25V 0603 Capacitor"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Qty/Unit" ""
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost/Unit" ""
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Order From" "LCSC"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey P/N" ""
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser P/N" "81-GRM188R61E106MA3D"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC P/N" "C96446"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Basic Part" "Yes"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL10A106MA8NRNC_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CL10A106MA8NRNC_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -10254,6 +9628,197 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bfr_inductors:BWVS005050404R7M00"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bfr_inductors:BWVS005050404R7M00"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/DATASHEET_BWVS00505040_SERIES"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.7uH 3.2A 32mOhm 5x5mm SMD Power Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey P/N" "553-BWVS005050404R7M00CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser P/N" "603-BWVS5050404R7M00"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC P/N" "C2838218"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLC Basic?" "No"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order from" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "4.7uH 3.2A 32mOhm 5x5mm SMD Power Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BWVS005050404R7M00_0_1"
+				(arc
+					(start -2.54 0)
+					(mid -1.905 0.6323)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 0)
+					(mid -0.635 0.6323)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.635 0.6323)
+					(end 1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 1.905 0.6323)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BWVS005050404R7M00_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11114,6 +10679,16 @@
 		)
 		(uuid "9017cb38-afed-436b-b8ce-2ea0a33611fb")
 	)
+	(text "120mA max from datasheet pg 147"
+		(exclude_from_sim no)
+		(at 292.608 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b7f287f-5700-4968-922b-b13d0d01cc35")
+	)
 	(text "todo: double check other factors\npower, drive level, ext. resistor, pllability, safety factor"
 		(exclude_from_sim no)
 		(at 62.23 91.44 0)
@@ -11145,10 +10720,40 @@
 		(uuid "e8aec01c-d43e-4fdd-b8a4-54e8f5cf08f4")
 	)
 	(junction
+		(at 142.24 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "014bc604-485f-4477-85e7-fe4397a97afc")
+	)
+	(junction
+		(at 163.83 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02c0a686-c9a0-4191-9164-9a34684a8799")
+	)
+	(junction
+		(at 173.99 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04ec4d4a-6c07-470e-a8b8-88cc17eed3ca")
+	)
+	(junction
 		(at 64.77 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "057a1b8a-2ba6-4f13-af60-950d571d86ce")
+	)
+	(junction
+		(at 179.07 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "194d1ad6-ae24-4692-9a76-ab323aa63051")
+	)
+	(junction
+		(at 137.16 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1aaf4928-6719-4d83-a735-ab6bd1a2ad13")
 	)
 	(junction
 		(at 264.16 57.15)
@@ -11163,28 +10768,10 @@
 		(uuid "1eef8b2d-4228-407e-bae6-ff9927d68525")
 	)
 	(junction
-		(at 168.91 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ef33bd3-73b6-4224-a666-9f58f5797643")
-	)
-	(junction
-		(at 143.51 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f5cbb73-32ae-4820-b01c-00bf447e03ad")
-	)
-	(junction
 		(at 128.27 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22721a3d-a730-4cd5-abdd-1de5dc3e6288")
-	)
-	(junction
-		(at 157.48 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "246f670f-634c-473a-ade1-a908fa1730c6")
 	)
 	(junction
 		(at 54.61 68.58)
@@ -11193,28 +10780,22 @@
 		(uuid "247e0f9a-e313-4c6e-903b-3b213759a851")
 	)
 	(junction
-		(at 264.16 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "262090ea-d3bd-449f-8bff-5de39467c353")
-	)
-	(junction
 		(at 121.92 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2813d1bf-64fa-4196-87ec-924570d9ff9d")
 	)
 	(junction
-		(at 148.59 39.37)
+		(at 143.51 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3117e47c-4117-4005-b6fc-0bdcb86d5427")
+		(uuid "3a79996f-fbe3-4b16-ae98-62e6720d4454")
 	)
 	(junction
-		(at 168.91 31.75)
+		(at 137.16 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "398485f4-2efa-4bff-951f-3f7eb18043d2")
+		(uuid "3e970008-d2bc-4a9f-aa35-4dbda86124b9")
 	)
 	(junction
 		(at 146.05 173.99)
@@ -11223,10 +10804,28 @@
 		(uuid "4106b92b-dcc4-42bc-867e-0b8bb3d64a72")
 	)
 	(junction
-		(at 158.75 39.37)
+		(at 157.48 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "657bacfb-09f9-48d1-908d-15060c18dfd5")
+		(uuid "49ca5957-28ff-4c06-8fe8-53783de9ffa3")
+	)
+	(junction
+		(at 148.59 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e21ef8c-ea52-4009-a537-3c41d79fc048")
+	)
+	(junction
+		(at 168.91 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d4953c1-42bd-40f6-b273-b17018588740")
+	)
+	(junction
+		(at 152.4 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "628ac0a0-0b9d-4b43-8986-1a680d7e6de2")
 	)
 	(junction
 		(at 138.43 39.37)
@@ -11247,24 +10846,6 @@
 		(uuid "68e3c255-3190-408b-ac37-ab516f45ce97")
 	)
 	(junction
-		(at 147.32 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68f833c1-a938-478c-891b-b8a9f298ef1c")
-	)
-	(junction
-		(at 152.4 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a40fc0d-2d14-44e0-8021-ae21e168e4e6")
-	)
-	(junction
-		(at 158.75 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b03cd49-c5fa-4faf-b2eb-364a7a64c227")
-	)
-	(junction
 		(at 127 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11283,10 +10864,16 @@
 		(uuid "769b268f-83a9-457e-b18f-e45a9339556e")
 	)
 	(junction
-		(at 152.4 50.8)
+		(at 158.75 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81d374a1-7158-4b2d-a16e-f1cb35c31ebc")
+		(uuid "7aaa3cba-b5b7-4ece-b12e-b2aebe389524")
+	)
+	(junction
+		(at 142.24 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "800967c8-f83c-49c4-a4ef-fb53f332a161")
 	)
 	(junction
 		(at 133.35 31.75)
@@ -11295,22 +10882,28 @@
 		(uuid "83cdef1d-303b-48b4-8d8d-bf56c4be7b73")
 	)
 	(junction
-		(at 163.83 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "874e934c-1112-4846-8abe-ea3935c4f69a")
-	)
-	(junction
 		(at 64.77 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87eab042-026a-4a88-814c-b52efaa551b7")
 	)
 	(junction
-		(at 163.83 31.75)
+		(at 158.75 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8ec2477f-7f68-4e8b-ab77-3e34f680f0b4")
+		(uuid "89926811-a66d-484f-841b-47ed01232b5f")
+	)
+	(junction
+		(at 157.48 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b037759-dcc7-4b70-b781-2df0dfd676b7")
+	)
+	(junction
+		(at 264.16 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f855959-f2d6-4955-889c-ec40c1e243e3")
 	)
 	(junction
 		(at 127 58.42)
@@ -11325,16 +10918,10 @@
 		(uuid "98cfe3ee-845a-4703-8511-99f60ea67217")
 	)
 	(junction
-		(at 153.67 31.75)
+		(at 173.99 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9bc8da22-c66d-4100-9061-ce6342d20352")
-	)
-	(junction
-		(at 153.67 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3f1ebee-0c3b-4893-8188-3746852c6f7d")
+		(uuid "a4a53f00-a7e1-4a96-a4b6-58615e30fb6e")
 	)
 	(junction
 		(at 142.24 81.28)
@@ -11349,28 +10936,28 @@
 		(uuid "b04ab4f0-801b-4c6f-983c-79fb85e09dfd")
 	)
 	(junction
+		(at 168.91 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b39368a8-8837-4359-85cb-c14275ae41e5")
+	)
+	(junction
 		(at 121.92 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b70ad714-0130-44c2-8f20-e572ca197c85")
 	)
 	(junction
-		(at 142.24 50.8)
+		(at 143.51 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b9d7d203-cbf6-4d26-a0f8-542f1b592dea")
+		(uuid "c879106f-1322-4221-a389-2bb7ff8722ed")
 	)
 	(junction
-		(at 142.24 58.42)
+		(at 179.07 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b9efc3bb-48a8-4dfd-a9ac-bca92cb9c374")
-	)
-	(junction
-		(at 157.48 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc44ffd8-25a2-472a-b399-829a0b04fbfc")
+		(uuid "ca599642-d164-4f98-8843-b19e25b817b7")
 	)
 	(junction
 		(at 128.27 68.58)
@@ -11379,10 +10966,10 @@
 		(uuid "d8bcbf4b-59ad-4a40-989e-104bc273807d")
 	)
 	(junction
-		(at 148.59 31.75)
+		(at 152.4 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "daf6d5e6-3482-46a0-8855-7cdc8fa413b0")
+		(uuid "de7f4bad-5d04-4f72-8797-34701ce1866e")
 	)
 	(junction
 		(at 138.43 31.75)
@@ -11391,16 +10978,22 @@
 		(uuid "e008a370-2b81-4bd0-be49-8e745d769b87")
 	)
 	(junction
-		(at 143.51 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e23aac3a-a4b9-4615-94e9-93d6ee263f95")
-	)
-	(junction
 		(at 133.35 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e23e5e94-73e3-43de-bfa3-ddf2cf07d652")
+	)
+	(junction
+		(at 153.67 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3332d21-5f4c-4826-8876-197ea96aeca7")
+	)
+	(junction
+		(at 148.59 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8fbb2d6-4a96-45e0-8876-bb5cf3e9e98d")
 	)
 	(junction
 		(at 132.08 58.42)
@@ -11409,34 +11002,40 @@
 		(uuid "eba6ef09-b958-407a-9fb8-58d0d3b8cb58")
 	)
 	(junction
+		(at 147.32 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec0d76da-f93c-4fdd-b4c1-e79e5458dbe5")
+	)
+	(junction
 		(at 132.08 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef16738e-af4e-461a-a61e-cef29fe976ae")
 	)
 	(junction
-		(at 137.16 58.42)
+		(at 153.67 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f29436d6-6dff-48b7-bd64-1928ee2aa59a")
+		(uuid "f2269cc9-d7eb-429e-90d1-1cbf6988adb1")
+	)
+	(junction
+		(at 163.83 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f399ed97-0e80-4764-b199-35a83eeaa123")
 	)
 	(junction
 		(at 147.32 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f6bf4004-8820-416c-ab64-0d9e057bccd5")
+		(uuid "f6a72058-5bff-4cd5-9b6c-82ec63ded487")
 	)
 	(junction
 		(at 54.61 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f95240f7-b8fa-402a-af3f-4d8ae4d00d66")
-	)
-	(junction
-		(at 137.16 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa44c3a1-fdf5-4871-ad59-540f7264837a")
 	)
 	(bus_entry
 		(at 247.65 120.65)
@@ -11486,7 +11085,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 39.37) (xy 189.23 39.37)
+			(xy 138.43 39.37) (xy 143.51 39.37)
 		)
 		(stroke
 			(width 0)
@@ -11536,16 +11135,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 58.42) (xy 147.32 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "092d7176-c74a-49e0-a876-eaeb9a360826")
-	)
-	(wire
-		(pts
 			(xy 142.24 68.58) (xy 138.43 68.58)
 		)
 		(stroke
@@ -11586,13 +11175,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 39.37) (xy 163.83 39.37)
+			(xy 152.4 50.8) (xy 157.48 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11918b88-e243-4f00-a6f7-d7f41baea4ea")
+		(uuid "12fe5dd5-570f-4c68-88b0-a5742d0ead97")
 	)
 	(wire
 		(pts
@@ -11656,16 +11245,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 58.42) (xy 152.4 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18f56a1a-ed59-4eaf-bf9b-4cc37fe58408")
-	)
-	(wire
-		(pts
 			(xy 142.24 81.28) (xy 138.43 81.28)
 		)
 		(stroke
@@ -11673,16 +11252,6 @@
 			(type default)
 		)
 		(uuid "19bc8446-966a-402e-8b56-ba37af631121")
-	)
-	(wire
-		(pts
-			(xy 163.83 31.75) (xy 168.91 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b076ee4-7934-49d7-a65a-064ca75f9af4")
 	)
 	(wire
 		(pts
@@ -11716,7 +11285,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 50.8) (xy 142.24 50.8)
+			(xy 132.08 50.8) (xy 137.16 50.8)
 		)
 		(stroke
 			(width 0)
@@ -11733,6 +11302,16 @@
 			(type default)
 		)
 		(uuid "25415d9f-1b29-4e84-a33e-3ef9d1ca9733")
+	)
+	(wire
+		(pts
+			(xy 153.67 39.37) (xy 158.75 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2828668d-28bb-4946-8259-2c722a11696b")
 	)
 	(wire
 		(pts
@@ -11756,16 +11335,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 50.8) (xy 147.32 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e5302ea-d973-4dab-a548-db63b60a3247")
-	)
-	(wire
-		(pts
 			(xy 41.91 55.88) (xy 43.18 55.88)
 		)
 		(stroke
@@ -11776,13 +11345,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 31.75) (xy 148.59 31.75)
+			(xy 157.48 50.8) (xy 162.56 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "310b2edb-c6d5-45ae-8ba1-6be26ba5a83f")
+		(uuid "3173c712-6c89-4e24-b313-127ac7c8c236")
 	)
 	(wire
 		(pts
@@ -11796,16 +11365,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 50.8) (xy 152.4 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "362b9892-4c45-481e-9056-226bae69fc7e")
-	)
-	(wire
-		(pts
 			(xy 30.48 50.8) (xy 30.48 55.88)
 		)
 		(stroke
@@ -11813,16 +11372,6 @@
 			(type default)
 		)
 		(uuid "3743ec84-dce8-4819-b07a-d3ac70e44e4f")
-	)
-	(wire
-		(pts
-			(xy 153.67 39.37) (xy 158.75 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "383bf967-b071-4f86-b2a9-2363a4d1d2c2")
 	)
 	(wire
 		(pts
@@ -11846,16 +11395,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 31.75) (xy 143.51 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c4c5cd1-89b3-4d36-b72d-b9025e791b58")
-	)
-	(wire
-		(pts
 			(xy 39.37 157.48) (xy 39.37 158.75)
 		)
 		(stroke
@@ -11863,6 +11402,16 @@
 			(type default)
 		)
 		(uuid "3c723877-3929-4197-8a05-3598a76ad1cd")
+	)
+	(wire
+		(pts
+			(xy 142.24 50.8) (xy 147.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c73d1f9-bd23-4670-97ce-45152ecad09b")
 	)
 	(wire
 		(pts
@@ -11883,6 +11432,16 @@
 			(type default)
 		)
 		(uuid "42b3ea18-bff3-441d-a37c-123760a890f1")
+	)
+	(wire
+		(pts
+			(xy 152.4 58.42) (xy 157.48 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440b1766-6955-4a18-b248-ace80cd757e4")
 	)
 	(wire
 		(pts
@@ -11916,7 +11475,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 58.42) (xy 142.24 58.42)
+			(xy 132.08 58.42) (xy 137.16 58.42)
 		)
 		(stroke
 			(width 0)
@@ -11966,16 +11525,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 31.75) (xy 158.75 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b6a7afc-41f2-4d42-ae09-50437869a7d8")
-	)
-	(wire
-		(pts
 			(xy 54.61 81.28) (xy 53.34 81.28)
 		)
 		(stroke
@@ -11993,6 +11542,16 @@
 			(type default)
 		)
 		(uuid "4f2bf4bb-1a29-421e-8995-df0d71e4a18b")
+	)
+	(wire
+		(pts
+			(xy 173.99 31.75) (xy 179.07 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5410da51-1a13-4f13-8665-ba6f5a011bcc")
 	)
 	(wire
 		(pts
@@ -12056,6 +11615,46 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 39.37) (xy 189.23 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e69ca69-70cc-402e-a54f-76d15dc5cc97")
+	)
+	(wire
+		(pts
+			(xy 142.24 58.42) (xy 147.32 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a20241-8024-49c0-9a13-56994566d207")
+	)
+	(wire
+		(pts
+			(xy 148.59 39.37) (xy 153.67 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a47cde-4a7c-4dff-877d-2930bb8c4c27")
+	)
+	(wire
+		(pts
+			(xy 157.48 58.42) (xy 163.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e35ff2-d676-433b-9968-4e29427bade2")
+	)
+	(wire
+		(pts
 			(xy 264.16 48.26) (xy 264.16 46.99)
 		)
 		(stroke
@@ -12066,13 +11665,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 39.37) (xy 148.59 39.37)
+			(xy 153.67 31.75) (xy 158.75 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f59ed7b-4ef7-4137-9f6b-4e6e7ba7126d")
+		(uuid "66aab069-e3b0-43f3-942c-d7e60002c4ad")
+	)
+	(wire
+		(pts
+			(xy 168.91 31.75) (xy 173.99 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0cd526-4e59-44c3-addf-16e49cee5343")
 	)
 	(wire
 		(pts
@@ -12106,16 +11715,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 50.8) (xy 162.56 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78534318-3bd0-4c1c-8c76-a034022d1070")
-	)
-	(wire
-		(pts
 			(xy 121.92 58.42) (xy 127 58.42)
 		)
 		(stroke
@@ -12136,6 +11735,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 39.37) (xy 173.99 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c18243c-e76f-4451-a459-163775d2757e")
+	)
+	(wire
+		(pts
 			(xy 30.48 55.88) (xy 31.75 55.88)
 		)
 		(stroke
@@ -12153,6 +11762,16 @@
 			(type default)
 		)
 		(uuid "7ca7c057-283a-4b6e-ad21-8c8444cddfd8")
+	)
+	(bus
+		(pts
+			(xy 158.75 129.54) (xy 165.1 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de16325-fa06-4fff-8fda-bc1a33d0f278")
 	)
 	(wire
 		(pts
@@ -12176,23 +11795,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 31.75) (xy 190.5 31.75)
+			(xy 138.43 31.75) (xy 143.51 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "836bcd85-652c-43b9-9161-5de98478dbf9")
-	)
-	(wire
-		(pts
-			(xy 158.75 31.75) (xy 163.83 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83adccc5-a830-453b-b6ea-9e6b5a7fb2ca")
 	)
 	(wire
 		(pts
@@ -12203,6 +11812,16 @@
 			(type default)
 		)
 		(uuid "8710c8d7-2137-4d8f-9b89-b18f694f4a18")
+	)
+	(wire
+		(pts
+			(xy 143.51 39.37) (xy 148.59 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87201f8a-e8a2-47e5-982a-cf5605f143ac")
 	)
 	(bus
 		(pts
@@ -12223,6 +11842,26 @@
 			(type default)
 		)
 		(uuid "886dea71-3d1e-4299-a344-50dad52b9a00")
+	)
+	(wire
+		(pts
+			(xy 163.83 31.75) (xy 168.91 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a08d292-cba4-481b-8f0a-06888c7626b9")
+	)
+	(wire
+		(pts
+			(xy 158.75 31.75) (xy 163.83 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a98489c-4a00-4e8d-ad3b-7f572cd813b0")
 	)
 	(wire
 		(pts
@@ -12286,16 +11925,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 50.8) (xy 137.16 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9051e299-5967-489c-a2a0-27091d601b3b")
-	)
-	(wire
-		(pts
 			(xy 128.27 81.28) (xy 128.27 78.74)
 		)
 		(stroke
@@ -12316,6 +11945,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 58.42) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d8f253-0472-4a50-ac32-b9a260669f57")
+	)
+	(wire
+		(pts
 			(xy 189.23 39.37) (xy 189.23 41.91)
 		)
 		(stroke
@@ -12326,23 +11965,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 58.42) (xy 157.48 58.42)
+			(xy 163.83 39.37) (xy 168.91 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97f2072b-8772-4513-a69a-ae9db53d2f9f")
-	)
-	(wire
-		(pts
-			(xy 152.4 50.8) (xy 157.48 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "997e4a7b-91b1-4c9d-8afd-6a95ffc15202")
+		(uuid "9965e74d-334f-469d-ac45-35106abb26c1")
 	)
 	(wire
 		(pts
@@ -12356,16 +11985,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 39.37) (xy 153.67 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fcfca64-815d-4c45-a7b8-3be49286902c")
-	)
-	(wire
-		(pts
 			(xy 41.91 81.28) (xy 45.72 81.28)
 		)
 		(stroke
@@ -12376,16 +11995,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 106.68) (xy 242.57 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0fd977d-d3f7-4ef6-a3c6-f05fe43cf211")
-	)
-	(wire
-		(pts
 			(xy 204.47 118.11) (xy 204.47 119.38)
 		)
 		(stroke
@@ -12393,16 +12002,6 @@
 			(type default)
 		)
 		(uuid "a1284e38-8e0f-476a-bcad-9d6ecb41cad0")
-	)
-	(wire
-		(pts
-			(xy 157.48 58.42) (xy 163.83 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a32f6872-49a2-47f0-b9bb-156daaa38775")
 	)
 	(bus
 		(pts
@@ -12456,13 +12055,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 39.37) (xy 168.91 39.37)
+			(xy 137.16 50.8) (xy 142.24 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab7a3984-24a7-4240-822a-884737b57e23")
+		(uuid "a96204a8-1ccc-49d6-b73d-b533c2b7ab27")
+	)
+	(wire
+		(pts
+			(xy 179.07 31.75) (xy 190.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad086b6c-8225-42c3-a7f1-773ad27c382f")
 	)
 	(wire
 		(pts
@@ -12473,6 +12082,36 @@
 			(type default)
 		)
 		(uuid "ae0af558-6b11-420f-96e4-47a8fa37f475")
+	)
+	(wire
+		(pts
+			(xy 143.51 31.75) (xy 148.59 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51ae42f-1d08-48d4-8e27-ad263382e198")
+	)
+	(wire
+		(pts
+			(xy 147.32 50.8) (xy 152.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b2b6c3-b9d4-4286-81a5-5f1af982b019")
+	)
+	(wire
+		(pts
+			(xy 173.99 39.37) (xy 179.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba13b4bb-bb54-43b2-ad81-6a01d04e7e9d")
 	)
 	(wire
 		(pts
@@ -12493,16 +12132,6 @@
 			(type default)
 		)
 		(uuid "c1653c46-dfeb-4e8d-9ea4-8c1dd801bc24")
-	)
-	(wire
-		(pts
-			(xy 138.43 39.37) (xy 143.51 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2f47f0d-df42-4a07-b595-d41a1b7d0a8e")
 	)
 	(wire
 		(pts
@@ -12596,16 +12225,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 31.75) (xy 153.67 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8da126a-bc01-434e-b359-abbbdcf435a5")
-	)
-	(wire
-		(pts
 			(xy 232.41 121.92) (xy 245.11 121.92)
 		)
 		(stroke
@@ -12613,6 +12232,16 @@
 			(type default)
 		)
 		(uuid "db860a5f-5b79-4db3-9b15-8bc98925a856")
+	)
+	(wire
+		(pts
+			(xy 158.75 39.37) (xy 163.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd6487e-b83d-470d-815a-553f7ff6898d")
 	)
 	(wire
 		(pts
@@ -12676,6 +12305,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 31.75) (xy 153.67 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b4d09e-39a9-4025-a114-554feb730cd0")
+	)
+	(wire
+		(pts
 			(xy 245.11 118.11) (xy 245.11 119.38)
 		)
 		(stroke
@@ -12693,6 +12332,16 @@
 			(type default)
 		)
 		(uuid "ec739ca2-c263-4c01-bde6-ac5cfe8bcb39")
+	)
+	(wire
+		(pts
+			(xy 137.16 58.42) (xy 142.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc01438-0f82-4186-b766-f931f7c2f2f7")
 	)
 	(wire
 		(pts
@@ -12743,16 +12392,6 @@
 			(type default)
 		)
 		(uuid "f65518a0-c537-43ff-911c-068b7c6e89f7")
-	)
-	(wire
-		(pts
-			(xy 132.08 58.42) (xy 137.16 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f68ae44f-489f-48ae-a816-ee6df6f069a7")
 	)
 	(wire
 		(pts
@@ -12898,27 +12537,6 @@
 			)
 		)
 	)
-	(hierarchical_label "+5V_XCVR"
-		(shape input)
-		(at 242.57 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "36b30f2b-b34b-49a5-bd9a-6041ac9f9fe1")
-		(property "Vrange" "4.5-5.5V"
-			(at 242.57 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(hierarchical_label "MCU_JTCK"
 		(shape input)
 		(at 39.37 173.99 180)
@@ -12929,6 +12547,17 @@
 			(justify right)
 		)
 		(uuid "3a112d94-042b-4f43-be2d-27ceb7327eea")
+	)
+	(hierarchical_label "LED_ARR_DATA"
+		(shape output)
+		(at 158.75 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a8de8f7-3601-4bc9-acb9-8f42cbf496c3")
 	)
 	(hierarchical_label "VREF+"
 		(shape input)
@@ -13264,16 +12893,16 @@
 		(uuid "f96f456b-c9c8-4d45-ac2b-ea58bbd68287")
 	)
 	(symbol
-		(lib_id "bfr_capacitors:CL10A106MA8NRNC")
-		(at 168.91 35.56 0)
+		(lib_id "bfr_capacitors:CL05B104KB54PNC")
+		(at 173.99 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "06c12909-1e2b-4a9f-bb7d-0e57e0dd5af9")
+		(uuid "00e12b5d-6af3-40ce-8c06-a053f66aa014")
 		(property "Reference" "C524"
-			(at 170.18 29.21 0)
+			(at 176.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13281,8 +12910,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
-			(at 170.18 26.67 0)
+		(property "Value" "100n"
+			(at 176.53 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13290,8 +12919,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 168.91 38.1 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 173.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13300,7 +12929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 39.37 0)
+			(at 173.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13308,8 +12937,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF±20% X5R 25V JLCPCB Basic 0603 Capacitor"
-			(at 168.91 35.56 0)
+		(property "Description" "100nF±10% X7R 50V JLCPCB Basic 0402 Capacitor"
+			(at 173.99 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13318,7 +12947,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 168.91 40.64 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13327,7 +12956,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 168.91 41.91 0)
+			(at 173.99 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13335,8 +12964,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL10A106MA8NRNC.lib"
-			(at 168.91 43.18 0)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KB54PNC.lib"
+			(at 173.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13344,8 +12973,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "CL10A106MA8NRNC"
-			(at 168.91 44.45 0)
+		(property "Sim.Name" "CL05B104KB54PNC"
+			(at 173.99 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13353,8 +12982,8 @@
 				(hide yes)
 			)
 		)
-		(property "Pretty Name" "10uF X5R 25V 0603 Capacitor"
-			(at 168.91 45.72 0)
+		(property "Pretty Name" "100nF X7R 50V 0402 Capacitor"
+			(at 173.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13363,7 +12992,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 168.91 46.99 0)
+			(at 173.99 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13372,7 +13001,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 168.91 48.26 0)
+			(at 173.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13381,7 +13010,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 168.91 49.53 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13390,7 +13019,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 168.91 50.8 0)
+			(at 173.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13398,8 +13027,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "81-GRM188R61E106MA3D"
-			(at 168.91 50.8 0)
+		(property "Mouser P/N" ""
+			(at 173.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13407,8 +13036,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C96446"
-			(at 168.91 50.8 0)
+		(property "LCSC P/N" "C307331"
+			(at 173.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13417,7 +13046,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 168.91 50.8 0)
+			(at 173.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13426,7 +13055,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 168.91 50.8 0)
+			(at 173.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13434,11 +13063,11 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "4c062cc0-8038-41d7-a3ee-02423424a999")
-		)
 		(pin "2"
-			(uuid "fe75a4d1-348f-4fed-b41f-1ed1b972756d")
+			(uuid "f41668d3-e30e-43df-b210-7ad7e8859cd7")
+		)
+		(pin "1"
+			(uuid "5c9a81b9-4d95-4751-8805-4b2a5428d816")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
@@ -13644,7 +13273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11e9e172-a4c6-43f5-bfa9-3ef01dcde1dc")
-		(property "Reference" "#PWR0507"
+		(property "Reference" "#PWR0506"
 			(at 189.23 48.26 0)
 			(effects
 				(font
@@ -13694,7 +13323,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "#PWR0507")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -13725,7 +13354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels"
 			(at 146.05 157.48 0)
 			(effects
 				(font
@@ -13771,192 +13400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bfr_capacitors:CL05A105KA5NQNC")
-		(at 153.67 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18f3dd15-eb4b-4873-ae22-5d8c4467ea6c")
-		(property "Reference" "C519"
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 154.94 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 153.67 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1uF±10% X5R 25V JLCPCB Basic 0402 Capacitor"
-			(at 153.67 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 153.67 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 153.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05A105KA5NQNC.lib"
-			(at 153.67 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "CL05A105KA5NQNC"
-			(at 153.67 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "1uF X5R 25V 0402 Capacitor"
-			(at 153.67 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 153.67 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 153.67 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "LCSC"
-			(at 153.67 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" ""
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" ""
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C52923"
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Basic Part" "Yes"
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0d6abca9-d47a-49c6-bcc4-e7df44dd84d5")
-		)
-		(pin "1"
-			(uuid "499fb7d4-3d11-4670-ac3a-a6521fdfa77b")
-		)
-		(instances
-			(project "DU UC V1 - Minnow"
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C519")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bfr_capacitors:CL05B104KB54PNC")
 		(at 138.43 35.56 0)
 		(unit 1)
@@ -13965,7 +13408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bb1d483-861e-40e0-b82a-adc094b90367")
-		(property "Reference" "C513"
+		(property "Reference" "C512"
 			(at 140.97 29.21 0)
 			(effects
 				(font
@@ -14136,7 +13579,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C513")
+					(reference "C512")
 					(unit 1)
 				)
 			)
@@ -14152,7 +13595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20f589d1-6fbb-4a0c-9f08-4aa27bb2d6a1")
-		(property "Reference" "C525"
+		(property "Reference" "C526"
 			(at 267.97 50.7999 0)
 			(effects
 				(font
@@ -14323,7 +13766,7 @@
 		(instances
 			(project ""
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C525")
+					(reference "C526")
 					(unit 1)
 				)
 			)
@@ -14338,7 +13781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24d99e5b-67b2-4826-9971-4308f271ef24")
-		(property "Reference" "C508"
+		(property "Reference" "C507"
 			(at 134.62 48.26 0)
 			(effects
 				(font
@@ -14509,7 +13952,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C508")
+					(reference "C507")
 					(unit 1)
 				)
 			)
@@ -14526,7 +13969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27a9b5a4-f8d7-491a-8516-82887cef42ad")
-		(property "Reference" "#PWR0508"
+		(property "Reference" "#PWR0507"
 			(at 264.16 67.31 0)
 			(effects
 				(font
@@ -14576,7 +14019,193 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "#PWR0508")
+					(reference "#PWR0507")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_capacitors:CL05B104KB54PNC")
+		(at 163.83 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "316678b4-6a24-495e-8f17-858372a15181")
+		(property "Reference" "C522"
+			(at 166.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 166.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF±10% X7R 50V JLCPCB Basic 0402 Capacitor"
+			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 163.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 163.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KB54PNC.lib"
+			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "CL05B104KB54PNC"
+			(at 163.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "100nF X7R 50V 0402 Capacitor"
+			(at 163.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 163.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" ""
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" ""
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C307331"
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77afcb8f-5b8c-4c81-9769-2c4afce1523b")
+		)
+		(pin "1"
+			(uuid "3c0de348-b92e-41d5-b371-23e4302253e3")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
+					(reference "C522")
 					(unit 1)
 				)
 			)
@@ -14742,7 +14371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "358b5176-78ea-44f1-a847-48bca8359c9d")
-		(property "Reference" "#PWR0506"
+		(property "Reference" "#PWR0505"
 			(at 165.1 190.5 0)
 			(effects
 				(font
@@ -14792,7 +14421,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "#PWR0506")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -14809,7 +14438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3670880a-914b-4947-a53c-d152a046161e")
-		(property "Reference" "#PWR0503"
+		(property "Reference" "#PWR0502"
 			(at 142.24 91.44 0)
 			(effects
 				(font
@@ -14859,7 +14488,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "#PWR0503")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -14892,7 +14521,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels"
 			(at 36.83 55.88 0)
 			(effects
 				(font
@@ -14947,7 +14576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a985634-e53c-45c3-92fa-cd6cf1841105")
-		(property "Reference" "#PWR0505"
+		(property "Reference" "#PWR0504"
 			(at 163.83 67.31 0)
 			(effects
 				(font
@@ -14997,7 +14626,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "#PWR0505")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -15570,16 +15199,16 @@
 		)
 	)
 	(symbol
-		(lib_id "bfr_capacitors:CL10A106MA8NRNC")
+		(lib_id "bfr_capacitors:CL05B104KB54PNC")
 		(at 157.48 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4a6714e1-bfa4-40c3-bc74-7dd997d102d6")
-		(property "Reference" "C521"
-			(at 158.75 48.26 0)
+		(uuid "41b97c07-ae6e-4877-8f09-d04bc258d7bf")
+		(property "Reference" "C520"
+			(at 160.02 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15587,8 +15216,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
-			(at 158.75 45.72 0)
+		(property "Value" "100n"
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15596,7 +15225,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 157.48 57.15 0)
 			(effects
 				(font
@@ -15614,7 +15243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF±20% X5R 25V JLCPCB Basic 0603 Capacitor"
+		(property "Description" "100nF±10% X7R 50V JLCPCB Basic 0402 Capacitor"
 			(at 157.48 54.61 0)
 			(effects
 				(font
@@ -15641,7 +15270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL10A106MA8NRNC.lib"
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KB54PNC.lib"
 			(at 157.48 62.23 0)
 			(effects
 				(font
@@ -15650,7 +15279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "CL10A106MA8NRNC"
+		(property "Sim.Name" "CL05B104KB54PNC"
 			(at 157.48 63.5 0)
 			(effects
 				(font
@@ -15659,7 +15288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Pretty Name" "10uF X5R 25V 0603 Capacitor"
+		(property "Pretty Name" "100nF X7R 50V 0402 Capacitor"
 			(at 157.48 64.77 0)
 			(effects
 				(font
@@ -15704,7 +15333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "81-GRM188R61E106MA3D"
+		(property "Mouser P/N" ""
 			(at 157.48 69.85 0)
 			(effects
 				(font
@@ -15713,7 +15342,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C96446"
+		(property "LCSC P/N" "C307331"
 			(at 157.48 69.85 0)
 			(effects
 				(font
@@ -15740,16 +15369,202 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "d114fc2b-0c68-4d26-8db2-0280ce957d59")
-		)
 		(pin "2"
-			(uuid "bce4c7a8-edba-46c8-a811-eb93207b1975")
+			(uuid "e00710ba-aad2-4a1a-85a1-5587dc50a447")
+		)
+		(pin "1"
+			(uuid "08b28282-8010-4b2a-9088-9772167820f0")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C521")
+					(reference "C520")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_capacitors:CL05B104KB54PNC")
+		(at 143.51 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5413d554-8e5f-49a7-b392-2009b39df181")
+		(property "Reference" "C514"
+			(at 146.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 146.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 143.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF±10% X7R 50V JLCPCB Basic 0402 Capacitor"
+			(at 143.51 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 143.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 143.51 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KB54PNC.lib"
+			(at 143.51 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "CL05B104KB54PNC"
+			(at 143.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "100nF X7R 50V 0402 Capacitor"
+			(at 143.51 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 143.51 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 143.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 143.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" ""
+			(at 143.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" ""
+			(at 143.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C307331"
+			(at 143.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 143.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
+			(at 143.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3003f52-5906-483a-a55d-af2daa397842")
+		)
+		(pin "1"
+			(uuid "bd7f0617-9ace-4f44-b499-f810e1e40a75")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
+					(reference "C514")
 					(unit 1)
 				)
 			)
@@ -15764,7 +15579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "542a7f2b-8d04-4028-b98e-9858404b92d1")
-		(property "Reference" "C504"
+		(property "Reference" "C503"
 			(at 124.46 48.26 0)
 			(effects
 				(font
@@ -15935,7 +15750,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C504")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -15966,7 +15781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels"
 			(at 36.83 43.18 0)
 			(effects
 				(font
@@ -16020,7 +15835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56e83a47-ac86-49d3-a52c-d15c46307c84")
-		(property "Reference" "C520"
+		(property "Reference" "C517"
 			(at 154.94 177.7999 0)
 			(effects
 				(font
@@ -16191,23 +16006,23 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C520")
+					(reference "C517")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "bfr_capacitors:CL05A105KA5NQNC")
-		(at 143.51 35.56 0)
+		(lib_id "bfr_capacitors:CL05B104KB54PNC")
+		(at 142.24 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5bbe3ce1-2fcd-4bc6-adc4-db294620552e")
-		(property "Reference" "C515"
-			(at 144.78 29.21 0)
+		(uuid "60526267-0f68-4732-b4ff-bb2450a2d1d6")
+		(property "Reference" "C513"
+			(at 144.78 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16215,8 +16030,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
-			(at 144.78 26.67 0)
+		(property "Value" "100n"
+			(at 144.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16225,7 +16040,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 143.51 38.1 0)
+			(at 142.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16234,7 +16049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 39.37 0)
+			(at 142.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16242,8 +16057,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF±10% X5R 25V JLCPCB Basic 0402 Capacitor"
-			(at 143.51 35.56 0)
+		(property "Description" "100nF±10% X7R 50V JLCPCB Basic 0402 Capacitor"
+			(at 142.24 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16252,7 +16067,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 143.51 40.64 0)
+			(at 142.24 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16261,7 +16076,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 143.51 41.91 0)
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16269,8 +16084,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05A105KA5NQNC.lib"
-			(at 143.51 43.18 0)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KB54PNC.lib"
+			(at 142.24 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16278,8 +16093,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "CL05A105KA5NQNC"
-			(at 143.51 44.45 0)
+		(property "Sim.Name" "CL05B104KB54PNC"
+			(at 142.24 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16287,8 +16102,8 @@
 				(hide yes)
 			)
 		)
-		(property "Pretty Name" "1uF X5R 25V 0402 Capacitor"
-			(at 143.51 45.72 0)
+		(property "Pretty Name" "100nF X7R 50V 0402 Capacitor"
+			(at 142.24 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16297,7 +16112,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 143.51 46.99 0)
+			(at 142.24 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16306,7 +16121,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 143.51 48.26 0)
+			(at 142.24 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16315,7 +16130,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 143.51 49.53 0)
+			(at 142.24 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16324,7 +16139,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 143.51 50.8 0)
+			(at 142.24 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16333,7 +16148,7 @@
 			)
 		)
 		(property "Mouser P/N" ""
-			(at 143.51 50.8 0)
+			(at 142.24 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16341,8 +16156,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C52923"
-			(at 143.51 50.8 0)
+		(property "LCSC P/N" "C307331"
+			(at 142.24 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16351,7 +16166,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 143.51 50.8 0)
+			(at 142.24 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16360,7 +16175,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 143.51 50.8 0)
+			(at 142.24 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16369,15 +16184,573 @@
 			)
 		)
 		(pin "2"
-			(uuid "68a9108b-810c-48eb-9f5d-3373a4794fa9")
+			(uuid "2f199d89-32ee-4a12-8cf0-973273548d02")
 		)
 		(pin "1"
-			(uuid "7d0c3784-9bf9-4a95-adaf-ae55c284e919")
+			(uuid "5ef0c21d-ffb9-46e7-80f9-3a65cf209c77")
 		)
 		(instances
-			(project ""
+			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C515")
+					(reference "C513")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_capacitors:CL05B104KB54PNC")
+		(at 148.59 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60e83ccf-03e3-4f52-ac20-9ca907756496")
+		(property "Reference" "C516"
+			(at 151.13 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 151.13 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF±10% X7R 50V JLCPCB Basic 0402 Capacitor"
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 148.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 148.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KB54PNC.lib"
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "CL05B104KB54PNC"
+			(at 148.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "100nF X7R 50V 0402 Capacitor"
+			(at 148.59 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 148.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 148.59 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" ""
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" ""
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C307331"
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad816f34-1fd9-42aa-ae8a-1855cd56e4b7")
+		)
+		(pin "1"
+			(uuid "78a0ace3-7346-44b3-a8fd-98232a52c3c7")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
+					(reference "C516")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_capacitors:CL05B104KB54PNC")
+		(at 168.91 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "612392aa-5f0a-4aec-99e0-e7500026445b")
+		(property "Reference" "C523"
+			(at 171.45 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 171.45 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 168.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF±10% X7R 50V JLCPCB Basic 0402 Capacitor"
+			(at 168.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 168.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KB54PNC.lib"
+			(at 168.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "CL05B104KB54PNC"
+			(at 168.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "100nF X7R 50V 0402 Capacitor"
+			(at 168.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 168.91 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 168.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" ""
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" ""
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C307331"
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52dd9cc0-23d7-4c7a-ae30-bcdd9114e4b8")
+		)
+		(pin "1"
+			(uuid "2704acd3-1ddd-4b77-a733-0ff72478c8f0")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
+					(reference "C523")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_capacitors:CL05B104KB54PNC")
+		(at 158.75 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70db9e10-9a77-4f96-bf1f-ebfb52035e1a")
+		(property "Reference" "C521"
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 161.29 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 158.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF±10% X7R 50V JLCPCB Basic 0402 Capacitor"
+			(at 158.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 158.75 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 158.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KB54PNC.lib"
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "CL05B104KB54PNC"
+			(at 158.75 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "100nF X7R 50V 0402 Capacitor"
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 158.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 158.75 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" ""
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" ""
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C307331"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eaa940b9-a67e-4121-a6f5-1fc28bda79ff")
+		)
+		(pin "1"
+			(uuid "93f5425a-19aa-4bc8-bf4c-0dbe3dc39ed7")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
+					(reference "C521")
 					(unit 1)
 				)
 			)
@@ -16392,7 +16765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a5da768-7f6c-48b9-b022-a05ea89b190b")
-		(property "Reference" "C509"
+		(property "Reference" "C508"
 			(at 135.89 29.21 0)
 			(effects
 				(font
@@ -16563,7 +16936,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C509")
+					(reference "C508")
 					(unit 1)
 				)
 			)
@@ -16662,7 +17035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels"
 			(at 35.56 26.67 0)
 			(effects
 				(font
@@ -16708,16 +17081,16 @@
 		)
 	)
 	(symbol
-		(lib_id "bfr_capacitors:CL10A106MA8NRNC")
-		(at 152.4 54.61 0)
+		(lib_id "bfr_capacitors:CL05B104KB54PNC")
+		(at 153.67 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7cbb9628-0ef9-434a-81ea-a9b6eea260d7")
-		(property "Reference" "C518"
-			(at 153.67 48.26 0)
+		(uuid "7cece1f6-e68e-444a-9003-29ee04e8f96f")
+		(property "Reference" "C519"
+			(at 156.21 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16725,8 +17098,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
-			(at 153.67 45.72 0)
+		(property "Value" "100n"
+			(at 156.21 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16734,8 +17107,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 152.4 57.15 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 153.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16744,7 +17117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 58.42 0)
+			(at 153.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16752,8 +17125,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF±20% X5R 25V JLCPCB Basic 0603 Capacitor"
-			(at 152.4 54.61 0)
+		(property "Description" "100nF±10% X7R 50V JLCPCB Basic 0402 Capacitor"
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16762,7 +17135,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 152.4 59.69 0)
+			(at 153.67 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16771,7 +17144,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 152.4 60.96 0)
+			(at 153.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16779,8 +17152,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL10A106MA8NRNC.lib"
-			(at 152.4 62.23 0)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KB54PNC.lib"
+			(at 153.67 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16788,8 +17161,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "CL10A106MA8NRNC"
-			(at 152.4 63.5 0)
+		(property "Sim.Name" "CL05B104KB54PNC"
+			(at 153.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16797,8 +17170,8 @@
 				(hide yes)
 			)
 		)
-		(property "Pretty Name" "10uF X5R 25V 0603 Capacitor"
-			(at 152.4 64.77 0)
+		(property "Pretty Name" "100nF X7R 50V 0402 Capacitor"
+			(at 153.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16807,7 +17180,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 152.4 66.04 0)
+			(at 153.67 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16816,7 +17189,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 152.4 67.31 0)
+			(at 153.67 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16825,7 +17198,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 152.4 68.58 0)
+			(at 153.67 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16834,7 +17207,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 152.4 69.85 0)
+			(at 153.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16842,8 +17215,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "81-GRM188R61E106MA3D"
-			(at 152.4 69.85 0)
+		(property "Mouser P/N" ""
+			(at 153.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16851,8 +17224,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C96446"
-			(at 152.4 69.85 0)
+		(property "LCSC P/N" "C307331"
+			(at 153.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16861,7 +17234,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 152.4 69.85 0)
+			(at 153.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16870,7 +17243,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 152.4 69.85 0)
+			(at 153.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16878,16 +17251,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "39e0332a-e608-4987-9cdd-05a2dae56d5a")
-		)
 		(pin "2"
-			(uuid "0eda9251-4406-4353-a742-77a90cdadff2")
+			(uuid "44adda84-9750-4603-865e-6adc9fd2fcfe")
+		)
+		(pin "1"
+			(uuid "4794eccb-dc9c-4e20-a4dd-7bf36acb8c3a")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C518")
+					(reference "C519")
 					(unit 1)
 				)
 			)
@@ -17088,7 +17461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86fe8e62-c633-48bb-bacb-ce3a3058de7b")
-		(property "Reference" "C505"
+		(property "Reference" "C504"
 			(at 125.73 29.21 0)
 			(effects
 				(font
@@ -17259,379 +17632,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C505")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bfr_capacitors:CL10A106MA8NRNC")
-		(at 163.83 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b7c1bf5-3843-46f0-8ecf-638e4beb13a3")
-		(property "Reference" "C523"
-			(at 165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 165.1 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 163.83 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10uF±20% X5R 25V JLCPCB Basic 0603 Capacitor"
-			(at 163.83 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 163.83 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 163.83 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL10A106MA8NRNC.lib"
-			(at 163.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "CL10A106MA8NRNC"
-			(at 163.83 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "10uF X5R 25V 0603 Capacitor"
-			(at 163.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 163.83 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 163.83 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "LCSC"
-			(at 163.83 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" ""
-			(at 163.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "81-GRM188R61E106MA3D"
-			(at 163.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C96446"
-			(at 163.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Basic Part" "Yes"
-			(at 163.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 163.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf3478bd-37bd-4c87-9c18-b845ee3c29fb")
-		)
-		(pin "2"
-			(uuid "285d4f15-0518-4bec-9e88-bfcb1c12516b")
-		)
-		(instances
-			(project ""
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C523")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bfr_capacitors:CL05A105KA5NQNC")
-		(at 137.16 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c5c8707-0bdf-4b39-912d-817e273e43eb")
-		(property "Reference" "C512"
-			(at 138.43 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 138.43 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1uF±10% X5R 25V JLCPCB Basic 0402 Capacitor"
-			(at 137.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 137.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05A105KA5NQNC.lib"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "CL05A105KA5NQNC"
-			(at 137.16 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "1uF X5R 25V 0402 Capacitor"
-			(at 137.16 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 137.16 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 137.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "LCSC"
-			(at 137.16 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" ""
-			(at 137.16 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" ""
-			(at 137.16 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C52923"
-			(at 137.16 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Basic Part" "Yes"
-			(at 137.16 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 137.16 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "209900df-811a-44f1-849c-22f0de97c20e")
-		)
-		(pin "1"
-			(uuid "33cd0ce4-972e-4c2c-9562-ac422eaf32ef")
-		)
-		(instances
-			(project "DU UC V1 - Minnow"
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C512")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -17647,7 +17648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9430a03e-e082-494b-8394-0f71b7c0a13f")
-		(property "Reference" "#PWR0504"
+		(property "Reference" "#PWR0503"
 			(at 151.13 190.5 0)
 			(effects
 				(font
@@ -17697,7 +17698,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "#PWR0504")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -18271,6 +18272,192 @@
 		)
 	)
 	(symbol
+		(lib_id "bfr_capacitors:CL05B104KB54PNC")
+		(at 137.16 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95340adb-b1ba-4424-8c46-8db45b1b1cfc")
+		(property "Reference" "C511"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF±10% X7R 50V JLCPCB Basic 0402 Capacitor"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 137.16 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KB54PNC.lib"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "CL05B104KB54PNC"
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "100nF X7R 50V 0402 Capacitor"
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 137.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 137.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" ""
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" ""
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C307331"
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5661846d-e840-40ba-8ef7-10ed299adb8b")
+		)
+		(pin "1"
+			(uuid "73cf5894-d624-4e67-bfe3-f9d671f20157")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
+					(reference "C511")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bfr_capacitors:06035A7R0JAT2A")
 		(at 49.53 81.28 90)
 		(unit 1)
@@ -18455,16 +18642,17 @@
 		)
 	)
 	(symbol
-		(lib_id "bfr_capacitors:CL05A105KA5NQNC")
-		(at 142.24 54.61 0)
+		(lib_id "bfr_inductors:BWVS005050404R7M00")
+		(at 264.16 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a242533d-1f50-44ee-b4b6-b5e28816c75e")
-		(property "Reference" "C514"
-			(at 143.51 48.26 0)
+		(fields_autoplaced yes)
+		(uuid "a07111ec-75f4-4d40-89ec-9d44304ba23c")
+		(property "Reference" "L501"
+			(at 265.43 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18472,8 +18660,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
-			(at 143.51 45.72 0)
+		(property "Value" "4.7u"
+			(at 265.43 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18481,8 +18669,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 142.24 57.15 0)
+		(property "Footprint" "bfr_inductors:BWVS005050404R7M00"
+			(at 264.16 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18490,8 +18678,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 142.24 58.42 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/DATASHEET_BWVS00505040_SERIES"
+			(at 264.16 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18499,8 +18687,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF±10% X5R 25V JLCPCB Basic 0402 Capacitor"
-			(at 142.24 54.61 0)
+		(property "Description" "4.7uH 3.2A 32mOhm 5x5mm SMD Power Inductor"
+			(at 264.16 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18508,8 +18696,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "SUBCKT"
-			(at 142.24 59.69 0)
+		(property "Digikey P/N" "553-BWVS005050404R7M00CT-ND"
+			(at 264.16 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18517,8 +18705,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 142.24 60.96 0)
+		(property "Mouser P/N" "603-BWVS5050404R7M00"
+			(at 264.16 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18526,8 +18714,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05A105KA5NQNC.lib"
-			(at 142.24 62.23 0)
+		(property "LCSC P/N" "C2838218"
+			(at 264.16 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18535,8 +18723,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "CL05A105KA5NQNC"
-			(at 142.24 63.5 0)
+		(property "JLC Basic?" "No"
+			(at 264.16 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18544,283 +18732,25 @@
 				(hide yes)
 			)
 		)
-		(property "Pretty Name" "1uF X5R 25V 0402 Capacitor"
-			(at 142.24 64.77 0)
+		(property "Order from" "Digikey"
+			(at 264.16 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Qty/Unit" ""
-			(at 142.24 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 142.24 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "LCSC"
-			(at 142.24 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" ""
-			(at 142.24 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" ""
-			(at 142.24 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C52923"
-			(at 142.24 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Basic Part" "Yes"
-			(at 142.24 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 142.24 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bdb02134-b855-466f-ab21-ee58d321db03")
 		)
 		(pin "1"
-			(uuid "4d5ca1b9-132a-40f3-bfa5-673c35c024ac")
+			(uuid "a3f12306-4705-402f-bb75-b9d1ec654c12")
+		)
+		(pin "2"
+			(uuid "ce7ef784-aed4-4408-bdda-3cbe4b1011af")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C514")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bfr_capacitors:CL05A105KA5NQNC")
-		(at 148.59 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9e63bd7-810b-4108-bc4e-54b9011b723a")
-		(property "Reference" "C517"
-			(at 149.86 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 149.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 148.59 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1uF±10% X5R 25V JLCPCB Basic 0402 Capacitor"
-			(at 148.59 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 148.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 148.59 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05A105KA5NQNC.lib"
-			(at 148.59 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "CL05A105KA5NQNC"
-			(at 148.59 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "1uF X5R 25V 0402 Capacitor"
-			(at 148.59 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 148.59 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 148.59 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "LCSC"
-			(at 148.59 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" ""
-			(at 148.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" ""
-			(at 148.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C52923"
-			(at 148.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Basic Part" "Yes"
-			(at 148.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 148.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "863c8046-a7d4-4bca-a7ae-0dd216bf713b")
-		)
-		(pin "1"
-			(uuid "ada17849-920c-438a-83fa-f8b728f6c0de")
-		)
-		(instances
-			(project "DU UC V1 - Minnow"
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C517")
+					(reference "L501")
 					(unit 1)
 				)
 			)
@@ -18968,86 +18898,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 264.16 39.37 0)
+		(lib_id "bfr_capacitors:CL05B104KB54PNC")
+		(at 152.4 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad661f26-f3c3-4849-81b9-e937316cc29e")
-		(property "Reference" "L501"
-			(at 265.43 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 265.43 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 264.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d702f6c4-d6e2-493f-869d-40b77073b72e")
-		)
-		(pin "2"
-			(uuid "e4d2fb46-1281-44cb-8037-6e8423d92649")
-		)
-		(instances
-			(project ""
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "L501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bfr_capacitors:CL05A105KA5NQNC")
-		(at 158.75 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b64ea6fd-d5b5-4877-bfcc-6b97a622cf6c")
-		(property "Reference" "C522"
-			(at 160.02 29.21 0)
+		(uuid "b007c773-3742-4f94-bb31-4b242fd5be94")
+		(property "Reference" "C518"
+			(at 154.94 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19055,8 +18915,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
-			(at 160.02 26.67 0)
+		(property "Value" "100n"
+			(at 154.94 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19065,7 +18925,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 158.75 38.1 0)
+			(at 152.4 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19074,7 +18934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 39.37 0)
+			(at 152.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19082,8 +18942,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF±10% X5R 25V JLCPCB Basic 0402 Capacitor"
-			(at 158.75 35.56 0)
+		(property "Description" "100nF±10% X7R 50V JLCPCB Basic 0402 Capacitor"
+			(at 152.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19092,7 +18952,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 158.75 40.64 0)
+			(at 152.4 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19101,7 +18961,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 158.75 41.91 0)
+			(at 152.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19109,8 +18969,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05A105KA5NQNC.lib"
-			(at 158.75 43.18 0)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KB54PNC.lib"
+			(at 152.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19118,8 +18978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "CL05A105KA5NQNC"
-			(at 158.75 44.45 0)
+		(property "Sim.Name" "CL05B104KB54PNC"
+			(at 152.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19127,8 +18987,8 @@
 				(hide yes)
 			)
 		)
-		(property "Pretty Name" "1uF X5R 25V 0402 Capacitor"
-			(at 158.75 45.72 0)
+		(property "Pretty Name" "100nF X7R 50V 0402 Capacitor"
+			(at 152.4 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19137,7 +18997,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 158.75 46.99 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19146,7 +19006,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 158.75 48.26 0)
+			(at 152.4 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19155,7 +19015,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 158.75 49.53 0)
+			(at 152.4 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19164,7 +19024,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 158.75 50.8 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19173,7 +19033,7 @@
 			)
 		)
 		(property "Mouser P/N" ""
-			(at 158.75 50.8 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19181,8 +19041,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C52923"
-			(at 158.75 50.8 0)
+		(property "LCSC P/N" "C307331"
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19191,7 +19051,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 158.75 50.8 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19200,7 +19060,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 158.75 50.8 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19209,15 +19069,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c3a35cb9-2f8f-47a5-8fe3-e8381d3562d2")
+			(uuid "fc44f0fa-80d4-4ec2-8b33-ea4e13fdf72d")
 		)
 		(pin "1"
-			(uuid "92c7f423-b70a-4ed1-9b32-ea9ad52385bd")
+			(uuid "ada11114-24b8-448f-a5b9-17b111e5b3d0")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C522")
+					(reference "C518")
 					(unit 1)
 				)
 			)
@@ -19232,7 +19092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba04f9ef-2bff-4abf-b08c-e44ac5f0a274")
-		(property "Reference" "C506"
+		(property "Reference" "C505"
 			(at 129.54 48.26 0)
 			(effects
 				(font
@@ -19403,7 +19263,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C506")
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -19418,7 +19278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bada7c00-0508-4306-8d0a-6eff6abb9437")
-		(property "Reference" "C507"
+		(property "Reference" "C506"
 			(at 130.81 29.21 0)
 			(effects
 				(font
@@ -19589,7 +19449,193 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C507")
+					(reference "C506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_capacitors:CL05B104KB54PNC")
+		(at 147.32 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc412db0-46b3-4aab-802c-339ebbbdece8")
+		(property "Reference" "C515"
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 149.86 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 147.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF±10% X7R 50V JLCPCB Basic 0402 Capacitor"
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KB54PNC.lib"
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "CL05B104KB54PNC"
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "100nF X7R 50V 0402 Capacitor"
+			(at 147.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 147.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" ""
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" ""
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C307331"
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67fd03d3-93f8-4a7b-9573-e6b9bcec302b")
+		)
+		(pin "1"
+			(uuid "268963a6-7ca7-43ba-976e-417d393cff1f")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
+					(reference "C515")
 					(unit 1)
 				)
 			)
@@ -19604,7 +19650,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c06bcdff-c251-4ede-86e9-da1c181e70ab")
-		(property "Reference" "C511"
+		(property "Reference" "C510"
 			(at 134.62 85.09 90)
 			(effects
 				(font
@@ -19773,7 +19819,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C511")
+					(reference "C510")
 					(unit 1)
 				)
 			)
@@ -19789,7 +19835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0fb639e-dcc0-4d93-bde7-dae0433720db")
-		(property "Reference" "C510"
+		(property "Reference" "C509"
 			(at 134.62 60.96 90)
 			(effects
 				(font
@@ -19958,23 +20004,23 @@
 		(instances
 			(project ""
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C510")
+					(reference "C509")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "bfr_capacitors:CL05A105KA5NQNC")
-		(at 147.32 54.61 0)
+		(lib_id "bfr_capacitors:CL05B104KB54PNC")
+		(at 179.07 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ebbb0148-7f1d-4f7e-a04b-046de664b059")
-		(property "Reference" "C516"
-			(at 148.59 48.26 0)
+		(uuid "c38eba7c-4ac2-4a91-8ba0-a03b032fd541")
+		(property "Reference" "C525"
+			(at 181.61 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19982,8 +20028,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
-			(at 148.59 45.72 0)
+		(property "Value" "100n"
+			(at 181.61 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19992,7 +20038,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 147.32 57.15 0)
+			(at 179.07 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20001,7 +20047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 58.42 0)
+			(at 179.07 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20009,8 +20055,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF±10% X5R 25V JLCPCB Basic 0402 Capacitor"
-			(at 147.32 54.61 0)
+		(property "Description" "100nF±10% X7R 50V JLCPCB Basic 0402 Capacitor"
+			(at 179.07 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20019,7 +20065,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 147.32 59.69 0)
+			(at 179.07 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20028,7 +20074,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 147.32 60.96 0)
+			(at 179.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20036,8 +20082,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05A105KA5NQNC.lib"
-			(at 147.32 62.23 0)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KB54PNC.lib"
+			(at 179.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20045,8 +20091,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "CL05A105KA5NQNC"
-			(at 147.32 63.5 0)
+		(property "Sim.Name" "CL05B104KB54PNC"
+			(at 179.07 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20054,8 +20100,8 @@
 				(hide yes)
 			)
 		)
-		(property "Pretty Name" "1uF X5R 25V 0402 Capacitor"
-			(at 147.32 64.77 0)
+		(property "Pretty Name" "100nF X7R 50V 0402 Capacitor"
+			(at 179.07 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20064,7 +20110,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 147.32 66.04 0)
+			(at 179.07 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20073,7 +20119,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 147.32 67.31 0)
+			(at 179.07 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20082,7 +20128,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 147.32 68.58 0)
+			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20091,7 +20137,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 147.32 69.85 0)
+			(at 179.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20100,7 +20146,7 @@
 			)
 		)
 		(property "Mouser P/N" ""
-			(at 147.32 69.85 0)
+			(at 179.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20108,8 +20154,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C52923"
-			(at 147.32 69.85 0)
+		(property "LCSC P/N" "C307331"
+			(at 179.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20118,7 +20164,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 147.32 69.85 0)
+			(at 179.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20127,7 +20173,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 147.32 69.85 0)
+			(at 179.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20136,15 +20182,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ecc07a8f-4d3c-4ad3-9e0f-4691a55dde29")
+			(uuid "1e4d8c55-a4ba-4701-8ed9-50ebbafc6c3d")
 		)
 		(pin "1"
-			(uuid "0280d567-125a-4253-8892-e496d75a4acc")
+			(uuid "8d79b30d-60ad-45d0-9844-e02c5f8bc2fe")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C516")
+					(reference "C525")
 					(unit 1)
 				)
 			)
@@ -20177,7 +20223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG"
 			(at 158.75 168.91 0)
 			(effects
 				(font
@@ -20787,7 +20833,7 @@
 	)
 	(sheet
 		(at 165.1 97.79)
-		(size 25.4 30.48)
+		(size 25.4 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20812,7 +20858,7 @@
 			)
 		)
 		(property "Sheetfile" "periphs.kicad_sch"
-			(at 165.1 128.8546 0)
+			(at 165.1 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20910,6 +20956,16 @@
 				(justify right)
 			)
 		)
+		(pin "LED_ARR_DATA" output
+			(at 165.1 129.54 180)
+			(uuid "48ad8565-1b2f-47cb-b043-c3646502a8d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
@@ -20956,16 +21012,6 @@
 		(pin "3V3" input
 			(at 232.41 111.76 0)
 			(uuid "827fd11f-4018-449b-8723-0eede9f97ba7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5V" input
-			(at 232.41 106.68 0)
-			(uuid "3e754422-7e9b-414a-bb4b-42c2df428df9")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5,12 +5,12 @@
 	(uuid "dbb1f948-d26f-43e1-b380-342f2e277ec0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Interface_CAN_LIN:MCP2558FD-xSN"
+		(symbol "Interface_CAN_LIN:TCAN334G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -10.16 10.16 0)
+				(at -10.16 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,8 +18,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCP2558FD-xSN"
-				(at 2.54 10.16 0)
+			(property "Value" "TCAN334G"
+				(at 2.54 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,16 +27,17 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 -15.24 0)
+			(property "Footprint" ""
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -45,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CAN FD Transceiver with Silent Mode, up to 8 Mbps, SOIC-8"
+			(property "Description" "High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -54,7 +55,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "CAN FD Transceiver"
+			(property "ki_keywords" "High-Speed CAN Transceiver"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,7 +64,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9*P1.27mm*"
+			(property "ki_fp_filters" "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP2558FD-xSN_0_1"
+			(symbol "TCAN334G_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -85,7 +86,7 @@
 					)
 				)
 			)
-			(symbol "MCP2558FD-xSN_1_1"
+			(symbol "TCAN334G_1_1"
 				(pin input line
 					(at -12.7 5.08 0)
 					(length 2.54)
@@ -104,7 +105,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin tri_state line
 					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "RXD"
@@ -122,10 +123,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -12.7 -2.54 0)
 					(length 2.54)
-					(name "VIO"
+					(name "SHDN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -143,7 +144,7 @@
 				(pin input line
 					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "S"
+					(name "STB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -161,7 +162,7 @@
 				(pin power_in line
 					(at 0 10.16 270)
 					(length 2.54)
-					(name "VDD"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -179,7 +180,7 @@
 				(pin power_in line
 					(at 0 -10.16 90)
 					(length 2.54)
-					(name "VSS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -223,6 +224,192 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -531,238 +718,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bfr_capacitors:06035C104KAT2A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "100n"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0603 Capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=P1 2=P2"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/06035C104KAT2A.lib"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "06035C104KAT2A"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Pretty Name" "100nF 16V 0603 Capacitor"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Qty/Unit" ""
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost/Unit" ""
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Order From" "LCSC"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey P/N" "478-KGM15BR71H104KTCT-ND"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser P/N" "581-06035C104KAT2A"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC P/N" "C14663"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Basic Part" "Yes"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Created by" "capacitor_generator.py script using capacitor_bible_spec.txt"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "06035C104KAT2A_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "06035C104KAT2A_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bfr_capacitors:CL05B104KB54PNC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -977,6 +932,514 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bfr_diodes:KT-0603W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "White"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2305091500_Hubei-KENTO-Elec-KT-0603W_C2290.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5mA 2.85V White 0603 JLCPCB Basic LED"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order From" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey P/N" "1830-1063-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser P/N" "743-IN-S63AT5UW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC P/N" "C2290"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Basic Part" "Yes"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Created by" "Manual entry"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pretty Name" "White 0603 LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KT-0603W_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KT-0603W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bfr_resistors:RMCF0402FT120R"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "120"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "120Ω 0402 JLCPCB Basic Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=P1 2=P2"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0402FT120R.lib"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Name" "RMCF0402FT120R"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pretty Name" "120Ω 0402 Resistor"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Qty/Unit" ""
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost/Unit" ""
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order From" "LCSC"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey P/N" "RMCF0402FT120RCT-ND"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser P/N" "708-RMCF0402FT120R"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC P/N" "C25079"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Basic Part" "Yes"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Created by" "resistor_generator.py script using jlcbasic_0402_1206_resistor_spec.txt"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RMCF0402FT120R_0_1"
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RMCF0402FT120R_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -1368,15 +1831,25 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Debug LED"
+	(text "TX LED"
 		(exclude_from_sim no)
-		(at 196.088 62.992 0)
+		(at 207.518 62.992 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "1e3c183e-4a0e-4edf-8990-a7c1445191b3")
+	)
+	(text "RX LED"
+		(exclude_from_sim no)
+		(at 239.268 62.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f5258ff-352e-48ad-a297-f6d93f1c7a9a")
 	)
 	(text "Connect 2&3 to use terminating resistor"
 		(exclude_from_sim no)
@@ -1402,16 +1875,38 @@
 		(uuid "51cbd653-57b5-468f-9958-414ae9b4ceb0")
 	)
 	(junction
-		(at 111.76 87.63)
+		(at 147.32 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "afd57369-504f-4ae0-a393-3c0da3bcb4d3")
+		(uuid "75c6fb70-ad87-4262-9824-c72142494ff2")
 	)
 	(junction
-		(at 115.57 96.52)
+		(at 170.18 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b78d3326-a2b7-4eb3-937d-f8b34aaa9ffd")
+		(uuid "80427ba1-9c06-4c7f-b090-c1ef07c8e48d")
+	)
+	(junction
+		(at 208.28 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ada83517-8ecb-4396-856e-ce97a173f2b7")
+	)
+	(junction
+		(at 115.57 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cecff8f1-cb80-43cb-a6a7-8541ba37ff52")
+	)
+	(wire
+		(pts
+			(xy 240.03 97.79) (xy 240.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04bd1293-b0b0-40a3-8104-9789550b0c46")
 	)
 	(wire
 		(pts
@@ -1445,33 +1940,43 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 87.63) (xy 115.57 87.63)
+			(xy 154.94 100.33) (xy 161.29 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26b20821-1b4a-481e-91d3-9d62c4775554")
+		(uuid "25bac957-a426-4dcb-8a5d-7b7de8b0767f")
 	)
 	(wire
 		(pts
-			(xy 105.41 87.63) (xy 111.76 87.63)
+			(xy 208.28 66.04) (xy 240.03 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d2d9301-e88b-4dca-829d-0870cb0add30")
+		(uuid "321d5f22-56cc-4036-bfe4-8e584d5c4e51")
 	)
 	(wire
 		(pts
-			(xy 111.76 96.52) (xy 115.57 96.52)
+			(xy 240.03 66.04) (xy 240.03 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41ca09a2-a66a-4f3b-9361-01d943a362ab")
+		(uuid "3b55908b-82f2-41ce-8410-f46e293c9673")
+	)
+	(wire
+		(pts
+			(xy 208.28 97.79) (xy 208.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4543afa4-d605-48c5-ac44-883456a0fc92")
 	)
 	(wire
 		(pts
@@ -1495,7 +2000,27 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 66.04) (xy 196.85 66.04)
+			(xy 224.79 74.93) (xy 232.41 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa56c10-adcc-4195-9b91-280b32f12c5a")
+	)
+	(wire
+		(pts
+			(xy 240.03 81.28) (xy 240.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5256ab64-4eb5-4b10-8e6a-1890897fc387")
+	)
+	(wire
+		(pts
+			(xy 193.04 66.04) (xy 208.28 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1505,7 +2030,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 66.04) (xy 196.85 69.85)
+			(xy 208.28 66.04) (xy 208.28 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1525,6 +2050,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 87.63) (xy 171.45 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d692300-ce1b-4b96-9523-f292e98d250b")
+	)
+	(wire
+		(pts
+			(xy 147.32 82.55) (xy 171.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6ba2da-b961-48bd-a08f-a52fb6e78283")
+	)
+	(wire
+		(pts
 			(xy 115.57 90.17) (xy 115.57 96.52)
 		)
 		(stroke
@@ -1535,7 +2080,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 81.28) (xy 196.85 80.01)
+			(xy 170.18 87.63) (xy 170.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747da336-c67a-43de-866c-e3dbfb7f6e5b")
+	)
+	(wire
+		(pts
+			(xy 208.28 81.28) (xy 208.28 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1545,7 +2100,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 74.93) (xy 189.23 74.93)
+			(xy 115.57 87.63) (xy 115.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d74ef2-cc45-4945-85eb-305436b6ac43")
+	)
+	(wire
+		(pts
+			(xy 193.04 74.93) (xy 200.66 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1565,6 +2130,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 100.33) (xy 168.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0650562-f39a-41ad-bc0a-cb94aa6bbb06")
+	)
+	(wire
+		(pts
 			(xy 111.76 67.31) (xy 111.76 69.85)
 		)
 		(stroke
@@ -1575,23 +2150,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 82.55) (xy 171.45 82.55)
+			(xy 140.97 82.55) (xy 147.32 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cfd585bb-ccb6-4ff9-8507-545f3da97150")
-	)
-	(wire
-		(pts
-			(xy 111.76 87.63) (xy 111.76 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d595b238-cf00-4da3-a120-4f27bcb49c95")
 	)
 	(wire
 		(pts
@@ -1605,6 +2170,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 88.9) (xy 240.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf90531-1170-4efc-8c99-8ac2e0efd49e")
+	)
+	(wire
+		(pts
 			(xy 80.01 80.01) (xy 115.57 80.01)
 		)
 		(stroke
@@ -1615,7 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 87.63) (xy 171.45 87.63)
+			(xy 140.97 87.63) (xy 170.18 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1625,13 +2200,23 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 88.9) (xy 196.85 99.06)
+			(xy 208.28 88.9) (xy 208.28 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f62b489e-21b2-4cd2-855b-3b90aced2d96")
+	)
+	(wire
+		(pts
+			(xy 147.32 82.55) (xy 147.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f671f520-caff-45be-8ab1-1a455a78f6ff")
 	)
 	(label "RX"
 		(at 102.87 82.55 0)
@@ -1643,6 +2228,16 @@
 		)
 		(uuid "063c1ccc-b28a-4621-aea4-6693c4115d1a")
 	)
+	(label "RX"
+		(at 224.79 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "231e87fe-922b-4b0c-9db5-7c02bae8d3ae")
+	)
 	(label "TX"
 		(at 102.87 80.01 0)
 		(effects
@@ -1653,28 +2248,8 @@
 		)
 		(uuid "41bca85c-0ab1-4f39-8b57-73ff9cceeb47")
 	)
-	(label "3V3"
-		(at 106.68 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5db53c1e-8060-4533-823a-72aadd50eee4")
-	)
-	(label "3V3"
-		(at 181.61 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66389452-e337-4cba-af1e-e452581e2f8a")
-	)
 	(label "TX"
-		(at 181.61 74.93 0)
+		(at 193.04 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1682,6 +2257,17 @@
 			(justify left bottom)
 		)
 		(uuid "b0c26277-3b2d-437b-9027-2a1519b8e864")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 105.41 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23d0546d-a6f0-4305-8ad1-b545a5af696b")
 	)
 	(hierarchical_label "CTX"
 		(shape input)
@@ -1694,6 +2280,17 @@
 		)
 		(uuid "3603cbbd-c737-4ad9-8b00-69e045311b5e")
 	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 193.04 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f18da59-b4c2-4635-8881-61901d2b2eda")
+	)
 	(hierarchical_label "CANL"
 		(shape bidirectional)
 		(at 171.45 87.63 0)
@@ -1705,17 +2302,6 @@
 		)
 		(uuid "46e70c09-544b-4414-8528-e7395bacccc2")
 	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 105.41 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a8877243-a073-4f27-a25b-60c6d383d80a")
-	)
 	(hierarchical_label "CANH"
 		(shape bidirectional)
 		(at 171.45 82.55 0)
@@ -1726,17 +2312,6 @@
 			(justify left)
 		)
 		(uuid "af4d662c-46cd-40be-856e-d565d871f643")
-	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 105.41 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d17a9566-0afa-42bd-9ce6-ade8f1c9b4a7")
 	)
 	(hierarchical_label "CRX"
 		(shape output)
@@ -1750,109 +2325,17 @@
 		(uuid "d4aa1ecd-ed41-4376-bded-3096564661ab")
 	)
 	(symbol
-		(lib_id "Interface_CAN_LIN:MCP2558FD-xSN")
-		(at 128.27 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2260726d-7a02-4037-b99c-fba68b77585d")
-		(property "Reference" "U?"
-			(at 130.4133 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP2558FD-xSN"
-			(at 130.4133 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 128.27 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf"
-			(at 128.27 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAN FD Transceiver with Silent Mode, up to 8 Mbps, SOIC-8"
-			(at 128.27 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "b132d2e7-b92c-46e3-97a6-cfcae87a7ee4")
-		)
-		(pin "2"
-			(uuid "3f2a1aa0-1211-488a-95f7-69b588a4ae39")
-		)
-		(pin "4"
-			(uuid "6ccb6c05-048a-435e-9945-d48d150e63bf")
-		)
-		(pin "6"
-			(uuid "46f5826f-d997-4c55-873e-259a931e273f")
-		)
-		(pin "8"
-			(uuid "61a94811-4d35-4373-9351-a54f2e0ff9a6")
-		)
-		(pin "3"
-			(uuid "f108c7ad-a4fe-4f08-a639-b161edf89e35")
-		)
-		(pin "1"
-			(uuid "84d10e18-3559-43af-96ba-8d1b6007daec")
-		)
-		(pin "7"
-			(uuid "e80a4ce8-5308-4d46-9753-468d2ac921a2")
-		)
-		(instances
-			(project "DU UC V1 - Minnow"
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
-					(reference "U1001")
-					(unit 1)
-				)
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:BSS84")
-		(at 194.31 74.93 0)
+		(at 205.74 74.93 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2d3c47bc-8cd0-4401-965b-2cfbe75ce1ee")
-		(property "Reference" "Q?"
-			(at 200.66 73.6599 0)
+		(property "Reference" "Q701"
+			(at 212.09 76.2001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,7 +2344,7 @@
 			)
 		)
 		(property "Value" "BSS84"
-			(at 200.66 76.1999 0)
+			(at 212.09 73.6601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +2353,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 199.39 76.835 0)
+			(at 210.82 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +2364,7 @@
 			)
 		)
 		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
-			(at 199.39 78.74 0)
+			(at 210.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +2374,7 @@
 			)
 		)
 		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
-			(at 194.31 74.93 0)
+			(at 205.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,11 +2394,185 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
-					(reference "Q1001")
+					(reference "Q1501")
 					(unit 1)
 				)
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
-					(reference "Q?")
+					(reference "Q701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_CAN_LIN:TCAN334G")
+		(at 128.27 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3949dd36-c2e3-488b-b73e-fe776fc0f2e0")
+		(property "Reference" "U701"
+			(at 130.4133 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCAN334G"
+			(at 130.4133 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-8"
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8"
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f7e6e0dd-4f01-4a32-b4fe-c2b121611615")
+		)
+		(pin "5"
+			(uuid "21331d36-de9c-47b3-9e04-b648770d0086")
+		)
+		(pin "1"
+			(uuid "75ff5b2f-5b85-46d9-b188-a25dc2e52451")
+		)
+		(pin "7"
+			(uuid "c4418fd6-9e1d-4c47-95e8-8737ed7026c4")
+		)
+		(pin "8"
+			(uuid "4fc35563-ad5c-4dc0-93c1-0ef62363df03")
+		)
+		(pin "3"
+			(uuid "b3bd6441-5980-40b6-a292-6ec1340d6fc7")
+		)
+		(pin "2"
+			(uuid "5144b059-4499-478e-bfeb-7896c8bfd067")
+		)
+		(pin "6"
+			(uuid "035c8bf0-3688-4053-9f15-3b85f5b9f1d2")
+		)
+		(instances
+			(project ""
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
+					(reference "U1501")
+					(unit 1)
+				)
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
+					(reference "U701")
 					(unit 1)
 				)
 			)
@@ -1923,7 +2580,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 99.06 0)
+		(at 208.28 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1932,7 +2589,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d24be03-ed3e-4946-99e4-e0b6dc6a7aed")
 		(property "Reference" "#PWR0703"
-			(at 196.85 105.41 0)
+			(at 208.28 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +2598,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 104.14 0)
+			(at 208.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,7 +2606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 99.06 0)
+			(at 208.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,7 +2615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 99.06 0)
+			(at 208.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +2624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 99.06 0)
+			(at 208.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +2638,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
-					(reference "#PWR01003")
+					(reference "#PWR01503")
 					(unit 1)
 				)
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
@@ -2001,7 +2658,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f57eb8d-6283-4eed-bbe3-2699931b8ce1")
-		(property "Reference" "C?"
+		(property "Reference" "C701"
 			(at 108.458 64.262 0)
 			(effects
 				(font
@@ -2217,11 +2874,11 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
-					(reference "C1001")
+					(reference "C1501")
 					(unit 1)
 				)
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
-					(reference "C?")
+					(reference "C701")
 					(unit 1)
 				)
 			)
@@ -2287,7 +2944,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
-					(reference "#PWR01001")
+					(reference "#PWR01501")
 					(unit 1)
 				)
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
@@ -2298,35 +2955,17 @@
 		)
 	)
 	(symbol
-		(lib_id "bfr_capacitors:06035C104KAT2A")
-		(at 111.76 92.71 0)
-		(mirror y)
+		(lib_id "power:GND")
+		(at 240.03 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4c5401f8-6105-4be2-99cd-5e7dfc6bd530")
-		(property "Reference" "C?"
-			(at 107.442 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 108.712 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 111.76 95.25 0)
+		(fields_autoplaced yes)
+		(uuid "68a36742-7774-4f9d-aafa-05bcea5e8a40")
+		(property "Reference" "#PWR0704"
+			(at 240.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,8 +2973,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 111.76 96.52 0)
+		(property "Value" "GND"
+			(at 240.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,8 +2990,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0603 Capacitor"
-			(at 111.76 92.71 0)
+		(property "Datasheet" ""
+			(at 240.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,152 +2999,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "SUBCKT"
-			(at 111.76 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 111.76 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/06035C104KAT2A.lib"
-			(at 111.76 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "06035C104KAT2A"
-			(at 111.76 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "100nF 16V 0603 Capacitor"
-			(at 111.76 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 111.76 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 111.76 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "LCSC"
-			(at 111.76 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "478-KGM15BR71H104KTCT-ND"
-			(at 111.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "603-CC603KRX7R9BB104 "
-			(at 111.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Basic Part" "Yes"
-			(at 111.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created by" "capacitor_generator.py script using capacitor_bible_spec.txt"
-			(at 111.76 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 111.76 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CC603KRX7R9BB104"
-			(at 111.76 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 111.76 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 111.76 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C14663"
-			(at 111.76 92.71 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,19 +3009,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "8dd8351c-231e-4f9e-a9f3-e665221d9fab")
-		)
-		(pin "2"
-			(uuid "42ccf7a9-22a5-498e-8b97-fe72876a0cb4")
+			(uuid "132d72ef-7e01-470c-8525-0ad90bb72ce3")
 		)
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
-					(reference "C1002")
+					(reference "#PWR01504")
 					(unit 1)
 				)
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
-					(reference "C?")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 			)
@@ -2584,7 +3084,7 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
-					(reference "#PWR01002")
+					(reference "#PWR01502")
 					(unit 1)
 				)
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
@@ -2595,17 +3095,89 @@
 		)
 	)
 	(symbol
-		(lib_id "bfr_resistors:RMCF0603FT120R")
-		(at 196.85 85.09 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 151.13 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76724679-b916-40b1-acd6-200812e48ebf")
+		(property "Reference" "JP701"
+			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAN_TERM"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 151.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 151.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c3aee69-a20f-4096-b60e-9498602243cf")
+		)
+		(pin "2"
+			(uuid "2bcd2e55-6975-476d-a8f3-7e1350488cd0")
+		)
+		(instances
+			(project ""
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
+					(reference "JP1501")
+					(unit 1)
+				)
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
+					(reference "JP701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_diodes:KT-0603W")
+		(at 208.28 93.98 90)
+		(unit 1)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a5e169b7-3f69-4633-b759-1dda123b7652")
-		(property "Reference" "R?"
-			(at 199.39 83.8199 90)
+		(uuid "83783419-1cb7-4d6d-81fa-64098645fdea")
+		(property "Reference" "D701"
+			(at 212.09 94.2974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,8 +3185,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "120"
-			(at 199.39 86.3599 90)
+		(property "Value" "White"
+			(at 212.09 96.8374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,8 +3194,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 199.39 85.09 0)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 213.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,8 +3203,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 200.66 85.09 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2305091500_Hubei-KENTO-Elec-KT-0603W_C2290.pdf"
+			(at 208.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,71 +3212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "120Ω 0603 JLCPCB Basic Resistor"
-			(at 196.85 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 201.93 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 203.2 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT120R.lib"
-			(at 204.47 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "RMCF0603FT120R"
-			(at 205.74 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "120Ω 0603 Resistor"
-			(at 207.01 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 208.28 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 209.55 85.09 0)
+		(property "Description" "5mA 2.85V White 0603 JLCPCB Basic LED"
+			(at 213.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +3222,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 210.82 85.09 0)
+			(at 208.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,8 +3230,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "RMCF0603FT120RCT-ND"
-			(at 212.09 85.09 0)
+		(property "Digikey P/N" "1830-1063-1-ND"
+			(at 208.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,8 +3239,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "708-RMCF0603FT120R"
-			(at 212.09 85.09 0)
+		(property "Mouser P/N" "743-IN-S63AT5UW"
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C2290"
+			(at 208.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +3258,198 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "Manual entry"
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "White 0603 LED"
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88ec1a3a-4623-479d-b1da-deb59ac605b6")
+		)
+		(pin "1"
+			(uuid "bf5fdf7b-e7a5-4e9e-a23c-9540e77837f2")
+		)
+		(instances
+			(project ""
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
+					(reference "D1501")
+					(unit 1)
+				)
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
+					(reference "D701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_resistors:RMCF0603FT120R")
+		(at 208.28 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5e169b7-3f69-4633-b759-1dda123b7652")
+		(property "Reference" "R702"
+			(at 210.82 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120"
+			(at 210.82 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 210.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 212.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120Ω 0603 JLCPCB Basic Resistor"
+			(at 208.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 214.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT120R.lib"
+			(at 215.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "RMCF0603FT120R"
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "120Ω 0603 Resistor"
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 219.71 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 220.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 222.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0603FT120RCT-ND"
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "708-RMCF0603FT120R"
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 223.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,7 +3458,7 @@
 			)
 		)
 		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
-			(at 212.09 85.09 0)
+			(at 223.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +3467,7 @@
 			)
 		)
 		(property "LCSC Part #" "C22787"
-			(at 196.85 85.09 0)
+			(at 208.28 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,11 +3484,608 @@
 		(instances
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
-					(reference "R1001")
+					(reference "R1502")
 					(unit 1)
 				)
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
-					(reference "R?")
+					(reference "R702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_resistors:RMCF0603FT120R")
+		(at 240.03 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baa2aa52-8a6b-47d9-8387-03533792dff6")
+		(property "Reference" "R703"
+			(at 242.57 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120"
+			(at 242.57 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 242.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 243.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120Ω 0603 JLCPCB Basic Resistor"
+			(at 240.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 245.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 246.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT120R.lib"
+			(at 247.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "RMCF0603FT120R"
+			(at 248.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "120Ω 0603 Resistor"
+			(at 250.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 251.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 252.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 254 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0603FT120RCT-ND"
+			(at 255.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "708-RMCF0603FT120R"
+			(at 255.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 255.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
+			(at 255.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22787"
+			(at 240.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e8e6265-fe08-4750-9846-d448a5198d60")
+		)
+		(pin "2"
+			(uuid "983825b5-4c83-483e-a421-dc7873eb9a9d")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
+					(reference "R1503")
+					(unit 1)
+				)
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
+					(reference "R703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_diodes:KT-0603W")
+		(at 240.03 93.98 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd78fed8-e611-40a2-a49b-9fda37b6dbe0")
+		(property "Reference" "D702"
+			(at 243.84 94.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "White"
+			(at 243.84 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 245.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2305091500_Hubei-KENTO-Elec-KT-0603W_C2290.pdf"
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5mA 2.85V White 0603 JLCPCB Basic LED"
+			(at 245.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "1830-1063-1-ND"
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "743-IN-S63AT5UW"
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C2290"
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "Manual entry"
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "White 0603 LED"
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9433af11-f8bc-46a7-9d2e-4757f770fde1")
+		)
+		(pin "1"
+			(uuid "df88d843-f380-4d9a-b88c-48413bd76092")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
+					(reference "D1502")
+					(unit 1)
+				)
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
+					(reference "D702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_resistors:RMCF0402FT120R")
+		(at 165.1 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e34fbfcc-b6b9-4365-ad94-f2bfb57524df")
+		(property "Reference" "R701"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120Ω 0402 JLCPCB Basic Resistor"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0402FT120R.lib"
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "RMCF0402FT120R"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "120Ω 0402 Resistor"
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0402FT120RCT-ND"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "708-RMCF0402FT120R"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C25079"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "resistor_generator.py script using jlcbasic_0402_1206_resistor_spec.txt"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6b07ce0-5898-4024-8382-ebc3cc0a3615")
+		)
+		(pin "2"
+			(uuid "d5b591c6-4a0b-4c21-93ee-50dd6044d3db")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
+					(reference "R1501")
+					(unit 1)
+				)
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
+					(reference "R701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS84")
+		(at 237.49 74.93 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e461480d-16e3-4ce2-8bf0-522e8621051c")
+		(property "Reference" "Q702"
+			(at 243.84 76.2001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS84"
+			(at 243.84 73.6601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 242.57 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+			(at 242.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 237.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe2b0e72-343c-44dd-9d7e-e71dc5c00a51")
+		)
+		(pin "3"
+			(uuid "f63df89d-c093-48ec-a4d0-f00089160490")
+		)
+		(pin "2"
+			(uuid "71e2b6c0-ed1e-4654-9c84-1e5518b46eb4")
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/60d292c2-331d-4d2f-aa5c-bdca7ab1ae9c"
+					(reference "Q1502")
+					(unit 1)
+				)
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/c9adf87a-8f92-44b6-917f-4b9ab2f21739"
+					(reference "Q702")
 					(unit 1)
 				)
 			)

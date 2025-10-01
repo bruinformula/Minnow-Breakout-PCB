@@ -441,6 +441,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -637,6 +638,18 @@
     [
       "b0673764-f834-4bf8-b959-8d6fdaf9c45c",
       "NORFLASH Select"
+    ],
+    [
+      "6eee486e-5e34-4cea-9fac-db43d5ed61fb",
+      "Debug LED Array"
+    ],
+    [
+      "d6247a1c-9555-43b3-8a35-a8b2db790047",
+      "Debug LED Select"
+    ],
+    [
+      "4ff1d624-7928-4a37-b9f4-23ab6feb6628",
+      "Diagnostic LED"
     ],
     [
       "ef959e01-aa9b-4526-a9a5-a5bcea1528e7",
