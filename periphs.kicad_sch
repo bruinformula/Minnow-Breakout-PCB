@@ -7117,6 +7117,16 @@
 		)
 		(uuid "08139869-86c7-48c2-8d4b-3541d07d5198")
 	)
+	(label "PC_IN11"
+		(at 180.34 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09167404-191d-45c6-aea8-aedde0ea6fb3")
+	)
 	(label "PF[0..15]"
 		(at 113.03 113.03 0)
 		(effects
@@ -7247,16 +7257,6 @@
 		)
 		(uuid "27e482f3-d0a9-4eb4-a62a-41095275f28c")
 	)
-	(label "PC12_IN"
-		(at 180.34 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2adcd0a6-bc28-414a-8abb-c1420e72b29a")
-	)
 	(label "PF7"
 		(at 90.17 151.13 0)
 		(effects
@@ -7288,7 +7288,7 @@
 		(uuid "30c98d94-138b-4abb-a60a-10b473a0fd6b")
 	)
 	(label "{PC_IN[10..12]}"
-		(at 205.74 100.33 180)
+		(at 203.2 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7587,26 +7587,6 @@
 		)
 		(uuid "6ac07252-9651-4bf8-9d3e-783c1f3e8098")
 	)
-	(label "PC11_IN"
-		(at 180.34 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c01704b-7940-49a2-b65c-51ccbfc047d0")
-	)
-	(label "PC10_IN"
-		(at 180.34 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6cde9ddf-37c4-422b-9f8b-4ce0a8ceb267")
-	)
 	(label "PG0"
 		(at 29.21 31.75 0)
 		(effects
@@ -7737,6 +7717,16 @@
 		)
 		(uuid "8cff2cdc-6c79-4e99-a2f2-7104042cea22")
 	)
+	(label "PC_IN10"
+		(at 180.34 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8db26653-635b-45a9-a2d9-62bb4eeb1b0f")
+	)
 	(label "PB10"
 		(at 107.95 72.39 0)
 		(effects
@@ -7786,6 +7776,16 @@
 			(justify left bottom)
 		)
 		(uuid "95dbfa33-8a4d-41ac-8500-7665a56d4636")
+	)
+	(label "PC_IN12"
+		(at 180.34 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95fe37f3-a161-4bea-bef5-de46e11a3493")
 	)
 	(label "PA9"
 		(at 152.4 163.83 0)

@@ -963,7 +963,7 @@
 		)
 		(uuid "e8e72ef6-61fa-433b-bd82-ae6396a21d44")
 	)
-	(hierarchical_label "Vin"
+	(hierarchical_label "SIG"
 		(shape input)
 		(at 125.73 83.82 180)
 		(effects

@@ -198,7 +198,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bfr_connectors:USB_B_Micro"
+		(symbol "bfr_connectors:USB_B_Micro_Vertical"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -218,7 +218,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10118194-0001LF_Horizontal"
+			(property "Footprint" "Connector_USB:USB_Micro-B_Molex-105133-0001"
 				(at 0 0 0)
 				(effects
 					(font
@@ -227,7 +227,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf"
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1051330001?display=pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -236,7 +236,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Micro USB"
+			(property "Description" "Micro USB Edge Mount 5-pin Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -245,7 +245,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey P/N" "609-4618-1-ND"
+			(property "Digikey P/N" "WM9734CT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -254,7 +254,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser P/N" "649-10118194-0001LF "
+			(property "Mouser P/N" "538-105133-0001"
 				(at 0 0 0)
 				(effects
 					(font
@@ -263,7 +263,16 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC P/N" "C132563"
+			(property "LCSC P/N" "C782257"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLC Basic" "No"
 				(at 0 0 0)
 				(effects
 					(font
@@ -281,7 +290,7 @@
 					(hide yes)
 				)
 			)
-			(property "Order From" "JLC"
+			(property "Order From" "Digikey"
 				(at 0 0 0)
 				(effects
 					(font
@@ -299,7 +308,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_B_Micro_0_1"
+			(symbol "USB_B_Micro_Vertical_0_1"
 				(rectangle
 					(start -5.08 -7.62)
 					(end 5.08 7.62)
@@ -473,7 +482,7 @@
 					)
 				)
 			)
-			(symbol "USB_B_Micro_1_1"
+			(symbol "USB_B_Micro_Vertical_1_1"
 				(pin passive line
 					(at -2.54 -10.16 90)
 					(length 2.54)
@@ -2437,7 +2446,7 @@
 		(uuid "95aebfb5-4f5d-4880-9692-d883e9163c53")
 	)
 	(junction
-		(at 181.61 107.95)
+		(at 207.01 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab9054fb-76df-44a4-b04e-80645ca4067b")
@@ -2449,7 +2458,7 @@
 		(uuid "b774253c-e98d-42de-89fd-b30199cd9d47")
 	)
 	(junction
-		(at 177.8 107.95)
+		(at 203.2 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfe91dde-b72c-4a88-9ef7-1c7f6b9b9e5e")
@@ -2474,27 +2483,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 95.25) (xy 157.48 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "080cf4e3-e5af-48e0-93c9-1fb7c76688f4")
-	)
-	(wire
-		(pts
-			(xy 157.48 95.25) (xy 173.99 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d06a9cb-307f-4b88-86e9-f1fb4eaf4bfa")
-	)
-	(wire
-		(pts
-			(xy 165.1 87.63) (xy 173.99 87.63)
+			(xy 179.07 99.06) (xy 199.39 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2504,7 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 104.14) (xy 132.08 104.14)
+			(xy 132.08 104.14) (xy 199.39 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2524,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 111.76) (xy 177.8 107.95)
+			(xy 203.2 123.19) (xy 203.2 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2534,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 107.95) (xy 177.8 107.95)
+			(xy 187.96 119.38) (xy 203.2 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2544,7 +2533,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 107.95) (xy 171.45 106.68)
+			(xy 187.96 119.38) (xy 187.96 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2604,16 +2593,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 92.71) (xy 154.94 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54488182-d6ee-4b13-92f2-8e356e54e44b")
-	)
-	(wire
-		(pts
 			(xy 99.06 66.04) (xy 99.06 69.85)
 		)
 		(stroke
@@ -2621,16 +2600,6 @@
 			(type default)
 		)
 		(uuid "544acf0d-08cd-49f6-b597-f58a59b68255")
-	)
-	(wire
-		(pts
-			(xy 154.94 92.71) (xy 173.99 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "583d8884-74af-4c16-a430-c032f97778ba")
 	)
 	(wire
 		(pts
@@ -2644,7 +2613,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 107.95) (xy 181.61 107.95)
+			(xy 203.2 119.38) (xy 207.01 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2694,7 +2663,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 102.87) (xy 184.15 107.95)
+			(xy 209.55 114.3) (xy 209.55 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2704,7 +2673,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 107.95) (xy 184.15 107.95)
+			(xy 207.01 119.38) (xy 209.55 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2714,17 +2683,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 99.06) (xy 171.45 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aca94ada-d4d7-475a-81f7-0f2d2f6f3310")
-	)
-	(wire
-		(pts
-			(xy 157.48 106.68) (xy 127 106.68)
+			(xy 127 106.68) (xy 199.39 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2734,7 +2693,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 102.87) (xy 181.61 107.95)
+			(xy 207.01 114.3) (xy 207.01 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2754,7 +2713,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 87.63) (xy 154.94 87.63)
+			(xy 171.45 99.06) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2794,7 +2753,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 97.79) (xy 173.99 97.79)
+			(xy 187.96 109.22) (xy 199.39 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2812,8 +2771,18 @@
 		)
 		(uuid "feaf2e35-e77e-4c71-b48a-3fdb2d34df6d")
 	)
+	(label "PP5000_VUSB_RAW"
+		(at 180.34 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02c5a0ea-7652-4c0e-9ee4-35a996cfb0f2")
+	)
 	(label "USB_D-"
-		(at 172.72 95.25 180)
+		(at 198.12 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2843,7 +2812,7 @@
 		(uuid "830c51a0-8b9f-426a-9e9a-fd5693ee0122")
 	)
 	(label "USB_D+"
-		(at 172.72 92.71 180)
+		(at 198.12 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2861,6 +2830,16 @@
 			(justify left bottom)
 		)
 		(uuid "f513325a-396c-473c-8b10-b03bdf47b38b")
+	)
+	(label "USB_ID"
+		(at 190.5 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe7cf237-37a3-4518-838a-a22816d9f4bd")
 	)
 	(hierarchical_label "+5V_USB"
 		(shape input)
@@ -2908,7 +2887,7 @@
 	)
 	(hierarchical_label "+5V_USB"
 		(shape input)
-		(at 154.94 87.63 180)
+		(at 168.91 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3184,7 +3163,7 @@
 	)
 	(symbol
 		(lib_id "bfr_resistors:RMCF0402FT100K")
-		(at 171.45 102.87 90)
+		(at 187.96 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3192,7 +3171,7 @@
 		(dnp no)
 		(uuid "096e133f-b81c-48c1-8f7f-e5d8481da6f6")
 		(property "Reference" "R1704"
-			(at 168.91 101.5999 90)
+			(at 185.42 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3180,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 168.91 104.1399 90)
+			(at 185.42 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3189,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 173.99 102.87 0)
+			(at 190.5 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3198,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 175.26 102.87 0)
+			(at 191.77 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3207,7 @@
 			)
 		)
 		(property "Description" "100kΩ 0402 JLCPCB Basic Resistor"
-			(at 171.45 102.87 0)
+			(at 187.96 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3216,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 176.53 102.87 0)
+			(at 193.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3225,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 177.8 102.87 0)
+			(at 194.31 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +3234,7 @@
 			)
 		)
 		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0402FT100K.lib"
-			(at 179.07 102.87 0)
+			(at 195.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +3243,7 @@
 			)
 		)
 		(property "Sim.Name" "RMCF0402FT100K"
-			(at 180.34 102.87 0)
+			(at 196.85 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +3252,7 @@
 			)
 		)
 		(property "Pretty Name" "100kΩ 0402 Resistor"
-			(at 181.61 102.87 0)
+			(at 198.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +3261,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 182.88 102.87 0)
+			(at 199.39 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +3270,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 184.15 102.87 0)
+			(at 200.66 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,7 +3279,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 185.42 102.87 0)
+			(at 201.93 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,7 +3288,7 @@
 			)
 		)
 		(property "Digikey P/N" "RMCF0402FT100KCT-ND"
-			(at 186.69 102.87 0)
+			(at 203.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,7 +3297,7 @@
 			)
 		)
 		(property "Mouser P/N" "708-RMCF0402FT100K"
-			(at 186.69 102.87 0)
+			(at 203.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +3306,7 @@
 			)
 		)
 		(property "LCSC P/N" "C25741"
-			(at 186.69 102.87 0)
+			(at 203.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,7 +3315,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 186.69 102.87 0)
+			(at 203.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3324,7 @@
 			)
 		)
 		(property "Created by" "resistor_generator.py script using jlcbasic_0402_1206_resistor_spec.txt"
-			(at 186.69 102.87 0)
+			(at 203.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +3733,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 111.76 0)
+		(at 203.2 123.19 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3764,7 +3743,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b112ca2-c135-440a-802c-f2f54f9d4884")
 		(property "Reference" "#PWR01703"
-			(at 177.8 118.11 0)
+			(at 203.2 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,7 +3752,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 116.84 0)
+			(at 203.2 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +3760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 111.76 0)
+			(at 203.2 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,7 +3769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 111.76 0)
+			(at 203.2 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,7 +3778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 111.76 0)
+			(at 203.2 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +3800,7 @@
 	)
 	(symbol
 		(lib_id "bfr_diodes:1N5819WS")
-		(at 161.29 87.63 0)
+		(at 175.26 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3830,7 +3809,7 @@
 		(fields_autoplaced yes)
 		(uuid "67771790-0e17-4884-8d26-00c6f59c3abf")
 		(property "Reference" "D1701"
-			(at 160.9725 81.28 0)
+			(at 174.9425 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +3817,7 @@
 			)
 		)
 		(property "Value" "600m"
-			(at 160.9725 83.82 0)
+			(at 174.9425 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +3825,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 161.29 83.82 0)
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +3834,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 161.29 83.82 0)
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +3843,7 @@
 			)
 		)
 		(property "Description" "1A 600mV SOD-323 Schottky Diode"
-			(at 161.29 83.82 0)
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +3852,7 @@
 			)
 		)
 		(property "LCSC P/N" "C191023"
-			(at 161.036 83.82 0)
+			(at 175.006 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3861,7 @@
 			)
 		)
 		(property "Digikey P/N" "5272-B5819WSCT-ND"
-			(at 161.29 83.82 0)
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +3870,7 @@
 			)
 		)
 		(property "Mouser P/N" "833-B5819WS-TP"
-			(at 161.036 83.82 0)
+			(at 175.006 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,7 +3879,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 161.29 83.566 0)
+			(at 175.26 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3888,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 161.29 83.82 0)
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3897,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 161.29 87.63 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +3906,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 161.29 87.63 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3915,7 @@
 			)
 		)
 		(property "Pretty Name" "1A SOD-323 Schottky Diode"
-			(at 161.29 83.82 0)
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3924,7 @@
 			)
 		)
 		(property "Sim.Library" "${BFRUH_DIR}\\Electronics\\spice_models\\bfr_diodes\\1N5819WS.lib"
-			(at 161.29 83.82 0)
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3933,7 @@
 			)
 		)
 		(property "Sim.Name" "1N5819WS"
-			(at 161.036 83.82 0)
+			(at 175.006 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +3942,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 161.29 83.82 0)
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +3951,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 161.036 83.82 0)
+			(at 175.006 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +3960,7 @@
 			)
 		)
 		(property "Created by" "Manual Entry"
-			(at 161.29 83.82 0)
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,131 +3984,6 @@
 			(project "STM32F446 breakout V1 - Garibaldi"
 				(path "/6c37e641-6488-4ca1-9b36-326ba4e05a40/e3e74f47-7470-4558-b6f7-5225f0dc3823/c267077c-a0be-481e-afba-8124f3f644f0"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bfr_connectors:USB_B_Micro")
-		(at 181.61 92.71 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8275b590-1fee-4387-a7db-7ab2be3373dc")
-		(property "Reference" "J1701"
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MicroUSB"
-			(at 181.61 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10118194-0001LF_Horizontal"
-			(at 181.61 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf"
-			(at 181.61 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micro USB"
-			(at 181.61 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "609-4618-1-ND"
-			(at 181.61 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "649-10118194-0001LF "
-			(at 181.61 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C132563"
-			(at 181.61 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic?" "No"
-			(at 181.61 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "JLC"
-			(at 181.61 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "ee8ea1f2-de47-4575-85e0-5341ac77184b")
-		)
-		(pin "3"
-			(uuid "998d50ad-e0b3-4b7f-8ef0-a94400aa8b3c")
-		)
-		(pin "5"
-			(uuid "3dae92ef-bbff-471e-a7ef-b66fb8d04b51")
-		)
-		(pin "2"
-			(uuid "05aa639e-708d-4b6e-aaf3-ccebfc9300fe")
-		)
-		(pin "6"
-			(uuid "e54abdab-5a5d-492b-8faf-b19c278937d0")
-		)
-		(pin "1"
-			(uuid "9e1ccdbc-fe64-4211-886d-3716049dff76")
-		)
-		(instances
-			(project "DU UC V1 - Minnow"
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/c267077c-a0be-481e-afba-8124f3f644f0"
-					(reference "J1701")
 					(unit 1)
 				)
 			)
@@ -4435,6 +4289,140 @@
 			(project "STM32F446 breakout V1 - Garibaldi"
 				(path "/6c37e641-6488-4ca1-9b36-326ba4e05a40/e3e74f47-7470-4558-b6f7-5225f0dc3823/c267077c-a0be-481e-afba-8124f3f644f0"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_connectors:USB_B_Micro_Vertical")
+		(at 207.01 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb1645ea-2716-4927-8109-671b4197330f")
+		(property "Reference" "J1701"
+			(at 207.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MicroUSB"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_Micro-B_Molex-105133-0001"
+			(at 207.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1051330001?display=pdf"
+			(at 207.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micro USB Edge Mount 5-pin Vertical"
+			(at 207.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "WM9734CT-ND"
+			(at 207.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "538-105133-0001"
+			(at 207.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C782257"
+			(at 207.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" "No"
+			(at 207.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic?" "No"
+			(at 207.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "Digikey"
+			(at 207.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f817cdb3-6f32-4c75-8d19-b860763fa4e8")
+		)
+		(pin "6"
+			(uuid "3e342f39-b4c5-4ef7-aa37-f16162b46a72")
+		)
+		(pin "5"
+			(uuid "c6d7867c-3f3f-491c-8913-690aa28a4c1c")
+		)
+		(pin "1"
+			(uuid "acf5956b-fabe-4bf9-8076-f89ce91e5cfd")
+		)
+		(pin "4"
+			(uuid "186c3fee-67c1-454c-b7e4-dfa0a9e1a681")
+		)
+		(pin "2"
+			(uuid "9602c2bb-453e-4fd6-b422-f59514e7721b")
+		)
+		(instances
+			(project ""
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/39f2e686-5d02-49cd-becc-d2ee5e3525ad/c267077c-a0be-481e-afba-8124f3f644f0"
+					(reference "J1701")
 					(unit 1)
 				)
 			)

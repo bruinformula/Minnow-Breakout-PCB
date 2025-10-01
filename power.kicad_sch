@@ -2866,7 +2866,7 @@
 				(justify right)
 			)
 		)
-		(pin "Vin" input
+		(pin "SIG" input
 			(at 162.56 90.17 180)
 			(uuid "b29e60a5-fef6-4228-b9bb-480360fca200")
 			(effects
@@ -2967,7 +2967,7 @@
 			)
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/02d78338-99c8-4e1a-a94d-a7a2643a4fea"
-					(page "")
+					(page "#")
 				)
 			)
 		)
