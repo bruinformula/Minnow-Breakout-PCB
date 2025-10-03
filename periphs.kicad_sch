@@ -5049,7 +5049,7 @@
 	)
 	(bus
 		(pts
-			(xy 130.81 179.07) (xy 132.08 179.07)
+			(xy 130.81 179.07) (xy 134.62 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5469,7 +5469,7 @@
 	)
 	(bus
 		(pts
-			(xy 132.08 179.07) (xy 132.08 190.5)
+			(xy 134.62 179.07) (xy 134.62 193.04)
 		)
 		(stroke
 			(width 0)
@@ -6719,7 +6719,7 @@
 	)
 	(bus
 		(pts
-			(xy 130.81 190.5) (xy 132.08 190.5)
+			(xy 130.81 193.04) (xy 134.62 193.04)
 		)
 		(stroke
 			(width 0)
@@ -7366,6 +7366,16 @@
 			(justify right bottom)
 		)
 		(uuid "3f636159-d202-4921-8d17-47dc0c603bd3")
+	)
+	(label "{EN, A[0..2]}"
+		(at 134.62 179.07 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f8eae37-a19c-4472-a9a9-56632ebf6141")
 	)
 	(label "PC2"
 		(at 180.34 43.18 0)
@@ -8292,7 +8302,7 @@
 	)
 	(hierarchical_label "LED_ARR_DATA"
 		(shape output)
-		(at 130.81 190.5 180)
+		(at 130.81 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)

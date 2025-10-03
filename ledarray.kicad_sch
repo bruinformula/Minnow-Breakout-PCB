@@ -1919,16 +1919,6 @@
 		)
 		(uuid "4745d063-9e39-451a-87a7-26040cc05bc9")
 	)
-	(label "{A[0..2],LED_ARR_EN}"
-		(at 60.96 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4bbb9747-fe2e-42b5-93a4-5d3835f25670")
-	)
 	(label "A1"
 		(at 88.9 87.63 0)
 		(effects
@@ -1939,15 +1929,15 @@
 		)
 		(uuid "6066efc9-284e-45eb-aef2-21357aabfdda")
 	)
-	(label "LED_ARR_EN"
-		(at 88.9 95.25 0)
+	(label "{EN, A[0..2]}"
+		(at 63.5 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6b6fdb73-238f-4b1d-9494-7003220d771e")
+		(uuid "6957aa4e-9983-49ab-ba75-b52b97c9ceaf")
 	)
 	(label "A1"
 		(at 121.92 100.33 0)
@@ -1958,6 +1948,16 @@
 			(justify left bottom)
 		)
 		(uuid "90e7d0de-0f3f-4d1a-862e-4c414ec2eb34")
+	)
+	(label "EN"
+		(at 88.9 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97fb6100-24c8-411c-a08c-d804f6f7073d")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
