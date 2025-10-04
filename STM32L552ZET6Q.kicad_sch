@@ -9413,429 +9413,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bfr_capacitors:CL10A475KO8NNNC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "4.7u"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4.7uF±10% X5R 16V JLCPCB Basic 0603 Capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=P1 2=P2"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL10A475KO8NNNC.lib"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "CL10A475KO8NNNC"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Pretty Name" "4.7uF X5R 16V 0603 Capacitor"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Qty/Unit" ""
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost/Unit" ""
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Order From" "LCSC"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey P/N" ""
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser P/N" ""
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC P/N" "C19666"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Basic Part" "Yes"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL10A475KO8NNNC_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CL10A475KO8NNNC_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "bfr_inductors:BWVS005050404R7M00"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "4.7u"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "bfr_inductors:BWVS005050404R7M00"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/DATASHEET_BWVS00505040_SERIES"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4.7uH 3.2A 32mOhm 5x5mm SMD Power Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey P/N" "553-BWVS005050404R7M00CT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser P/N" "603-BWVS5050404R7M00"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC P/N" "C2838218"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLC Basic?" "No"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Order from" "Digikey"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "4.7uH 3.2A 32mOhm 5x5mm SMD Power Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BWVS005050404R7M00_0_1"
-				(arc
-					(start -2.54 0)
-					(mid -1.905 0.6323)
-					(end -1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 0)
-					(mid -0.635 0.6323)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.635 0.6323)
-					(end 1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 0)
-					(mid 1.905 0.6323)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BWVS005050404R7M00_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bfr_resistors:RMCF0402FT10K0"
 			(pin_numbers
 				(hide yes)
@@ -10107,11 +9684,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bfr_utilities:AS-16.000-18-SMD-TR"
+		(symbol "bfr_utilities:ABM3-16.000MHZ-D2Y-T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y"
+			(property "Reference" "Y?"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -10127,7 +9704,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Crystal:Crystal_SMD_HC49-SD"
+			(property "Footprint" "bfr_crystals:ABM3-16.000MHZ-D2Y-T"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10136,7 +9713,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.raltron.com/webproducts/specs/CRYSTAL/AS-16.000-18-SMD-TR.pdf"
+			(property "Datasheet" "https://abracon.com/Resonators/ABM3.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10145,7 +9722,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "HC49 Crystal, 16MHz, 7pF C_0, 18pF C_L, 40 ESR, 1.01 mA/V gmcrit, 20ppm"
+			(property "Description" "SMD-2 Crystal, 16MHz, 7pF C_0, 18pF C_L, 40 ESR, 1.01 mA/V gmcrit, 20ppm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10154,7 +9731,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer P/N" "AS-16.000-18-SMD-TR"
+			(property "Manufacturer P/N" "ABM3-16.000MHZ-D2Y-T"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10163,7 +9740,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Raltron Electronics"
+			(property "Manufacturer" "Abracon"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10172,7 +9749,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey P/N" "2151-AS-16.000-18-SMD-TRCT-ND"
+			(property "Digikey P/N" "535-10638-1-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10181,7 +9758,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser P/N" "428-202684-MC03 "
+			(property "Mouser P/N" "815-ABM3-16-D2Y-T"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10190,7 +9767,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC P/N" "C1985755"
+			(property "LCSC P/N" "C596861"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10208,7 +9785,7 @@
 					(hide yes)
 				)
 			)
-			(property "Order From" "Digikey"
+			(property "Order From" "JLC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10226,7 +9803,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "AS-16.000-18-SMD-TR_0_1"
+			(property "ki_keywords" "SMD-2 Crystal, 16MHz, 7pF C_0, 18pF C_L, 40 ESR, 1.01 mA/V gmcrit, 20ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ABM3-16.000MHZ-D2Y-T_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -1.905 0)
@@ -10287,7 +9873,7 @@
 					)
 				)
 			)
-			(symbol "AS-16.000-18-SMD-TR_1_1"
+			(symbol "ABM3-16.000MHZ-D2Y-T_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -10659,16 +10245,6 @@
 		)
 		(uuid "0b7c9c8d-033a-4830-a0b4-91113a7ec25b")
 	)
-	(text "todo: find a 4.7u inductor"
-		(exclude_from_sim no)
-		(at 273.05 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "70601359-8da4-42f8-b442-d98284510ab7")
-	)
 	(text "maybe i should add a sd card slot...\nmight be hard w m.2 form factor bc edge skinny"
 		(exclude_from_sim no)
 		(at 284.988 174.244 0)
@@ -10678,16 +10254,6 @@
 			)
 		)
 		(uuid "9017cb38-afed-436b-b8ce-2ea0a33611fb")
-	)
-	(text "120mA max from datasheet pg 147"
-		(exclude_from_sim no)
-		(at 292.608 39.624 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9b7f287f-5700-4968-922b-b13d0d01cc35")
 	)
 	(text "todo: double check other factors\npower, drive level, ext. resistor, pllability, safety factor"
 		(exclude_from_sim no)
@@ -10730,12 +10296,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "057a1b8a-2ba6-4f13-af60-950d571d86ce")
-	)
-	(junction
-		(at 264.16 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c243da9-807a-448f-aa73-5f5b4771b6fe")
 	)
 	(junction
 		(at 128.27 81.28)
@@ -10846,22 +10406,10 @@
 		(uuid "89926811-a66d-484f-841b-47ed01232b5f")
 	)
 	(junction
-		(at 264.16 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f855959-f2d6-4955-889c-ec40c1e243e3")
-	)
-	(junction
 		(at 127 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "964818bf-1abf-4792-9336-f23a26c364c8")
-	)
-	(junction
-		(at 264.16 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98cfe3ee-845a-4703-8511-99f60ea67217")
 	)
 	(junction
 		(at 142.24 81.28)
@@ -10952,6 +10500,26 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f95240f7-b8fa-402a-af3f-4d8ae4d00d66")
+	)
+	(no_connect
+		(at 259.08 43.18)
+		(uuid "1ccfae2c-6128-4701-adb5-fca6b2a39f2b")
+	)
+	(no_connect
+		(at 259.08 35.56)
+		(uuid "4ba4cec9-7019-42d6-9576-cd9f79a196e6")
+	)
+	(no_connect
+		(at 226.06 35.56)
+		(uuid "5e1bdf99-46db-46f1-9dec-544d1b095f10")
+	)
+	(no_connect
+		(at 259.08 46.99)
+		(uuid "df883db5-18e6-45bb-ab53-de8887f81a13")
+	)
+	(no_connect
+		(at 259.08 57.15)
+		(uuid "eff14389-e700-477c-9f88-ebca8ac78b3f")
 	)
 	(bus_entry
 		(at 247.65 120.65)
@@ -11088,26 +10656,6 @@
 			(type default)
 		)
 		(uuid "0cedb063-79d5-490c-aa54-16738aca3bf5")
-	)
-	(wire
-		(pts
-			(xy 264.16 46.99) (xy 264.16 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "143f7242-26fc-48fc-85d7-001b2fe32f0a")
-	)
-	(wire
-		(pts
-			(xy 224.79 35.56) (xy 226.06 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1447daca-bb44-4b97-a229-e5d4fc8c4ad9")
 	)
 	(wire
 		(pts
@@ -11421,16 +10969,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 35.56) (xy 264.16 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5416f3d3-f070-4c1d-8625-c0bc30df671f")
-	)
-	(wire
-		(pts
 			(xy 35.56 33.02) (xy 54.61 33.02)
 		)
 		(stroke
@@ -11491,16 +11029,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 48.26) (xy 264.16 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6582fab8-85c4-4d36-8db9-5e68df895070")
-	)
-	(wire
-		(pts
 			(xy 153.67 31.75) (xy 158.75 31.75)
 		)
 		(stroke
@@ -11528,16 +11056,6 @@
 			(type default)
 		)
 		(uuid "70cadbf3-50f8-4665-ad6b-6f82f57e298f")
-	)
-	(wire
-		(pts
-			(xy 264.16 57.15) (xy 259.08 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72224c39-6b27-4ef5-9e68-8dc708779cb6")
 	)
 	(wire
 		(pts
@@ -11688,26 +11206,6 @@
 			(type default)
 		)
 		(uuid "8a9b950b-bd0d-4f62-aa16-967ebf70e266")
-	)
-	(wire
-		(pts
-			(xy 264.16 57.15) (xy 264.16 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c187656-e7f5-49d3-8b9a-0d528b69cc14")
-	)
-	(wire
-		(pts
-			(xy 259.08 43.18) (xy 264.16 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c31fb49-9f89-4a68-854c-69c76bd13429")
 	)
 	(wire
 		(pts
@@ -11889,16 +11387,6 @@
 		)
 		(uuid "ba13b4bb-bb54-43b2-ad81-6a01d04e7e9d")
 	)
-	(wire
-		(pts
-			(xy 259.08 46.99) (xy 264.16 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfa9b6de-6cee-490a-b8fc-e5c60f93c3e9")
-	)
 	(bus
 		(pts
 			(xy 158.75 101.6) (xy 165.1 101.6)
@@ -11928,16 +11416,6 @@
 			(type default)
 		)
 		(uuid "cbd4cc34-400f-4ec7-b7ed-85e103562f98")
-	)
-	(wire
-		(pts
-			(xy 264.16 55.88) (xy 264.16 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0e8565c-196e-4a0a-93bc-9fdd3adcc93f")
 	)
 	(wire
 		(pts
@@ -12313,6 +11791,17 @@
 			)
 		)
 	)
+	(hierarchical_label "NJTRST"
+		(shape input)
+		(at 146.05 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30b4b149-28d4-4a44-aca9-47b7489fde1f")
+	)
 	(hierarchical_label "MCU_JTCK"
 		(shape input)
 		(at 39.37 173.99 180)
@@ -12552,27 +12041,6 @@
 		(uuid "d121ab38-6470-4fb3-8852-cdc93876a9cf")
 		(property "Vrange" "1.71-3.6V"
 			(at 29.21 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(hierarchical_label "+3V3_ucont"
-		(shape input)
-		(at 224.79 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e838d53f-0246-4ebe-821b-85334fbcc667")
-		(property "Vrange" "1.71-3.6V"
-			(at 224.79 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13176,193 +12644,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bfr_capacitors:CL10A475KO8NNNC")
-		(at 264.16 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20f589d1-6fbb-4a0c-9f08-4aa27bb2d6a1")
-		(property "Reference" "C526"
-			(at 267.97 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 267.97 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 264.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7uF±10% X5R 16V JLCPCB Basic 0603 Capacitor"
-			(at 264.16 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 264.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 264.16 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL10A475KO8NNNC.lib"
-			(at 264.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "CL10A475KO8NNNC"
-			(at 264.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "4.7uF X5R 16V 0603 Capacitor"
-			(at 264.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 264.16 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 264.16 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "LCSC"
-			(at 264.16 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" ""
-			(at 264.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" ""
-			(at 264.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C19666"
-			(at 264.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Basic Part" "Yes"
-			(at 264.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 264.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65561ca9-de02-4206-b60c-597f3aede2b1")
-		)
-		(pin "2"
-			(uuid "d3d09133-34ec-4890-989f-bbe592b8ccee")
-		)
-		(instances
-			(project ""
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "C526")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bfr_capacitors:CL05B104KB54PNC")
 		(at 132.08 54.61 0)
 		(unit 1)
@@ -13549,73 +12830,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 264.16 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27a9b5a4-f8d7-491a-8516-82887cef42ad")
-		(property "Reference" "#PWR0507"
-			(at 264.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 264.16 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73f300c4-0c34-4511-9ee3-d6c4f4a18e33")
-		)
-		(instances
-			(project "DU UC V1 - Minnow"
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "#PWR0507")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bfr_capacitors:CL05B104KB54PNC")
 		(at 163.83 35.56 0)
 		(unit 1)
@@ -13796,156 +13010,6 @@
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
 					(reference "C522")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bfr_utilities:AS-16.000-18-SMD-TR")
-		(at 128.27 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31c6d125-f8dd-435e-bff7-fbf2904dbba7")
-		(property "Reference" "Y502"
-			(at 121.92 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "16MHz, 7pF"
-			(at 116.84 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.raltron.com/webproducts/specs/CRYSTAL/AS-16.000-18-SMD-TR.pdf"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "HC49 Crystal, 16MHz, 7pF C_0, 18pF C_L, 40 ESR, 1.01 mA/V gmcrit, 20ppm"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer P/N" "AS-16.000-18-SMD-TR"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Raltron Electronics"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "2151-AS-16.000-18-SMD-TRCT-ND"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "428-202684-MC03 "
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C1985755"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic Part" "No"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "Digikey"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created By" "Manual Entry"
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" ""
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "540585f7-0f59-422e-aeeb-4a3128972f0a")
-		)
-		(pin "1"
-			(uuid "c652fb40-2720-43b8-bc95-15c873ce1073")
-		)
-		(instances
-			(project ""
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "Y502")
 					(unit 1)
 				)
 			)
@@ -16671,6 +15735,147 @@
 		)
 	)
 	(symbol
+		(lib_id "bfr_utilities:ABM3-16.000MHZ-D2Y-T")
+		(at 128.27 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80e7cf02-eb09-423d-aab8-9262f9d755eb")
+		(property "Reference" "Y502"
+			(at 120.65 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16MHz, 7pF"
+			(at 118.11 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bfr_crystals:ABM3-16.000MHZ-D2Y-T"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/Resonators/ABM3.pdf"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD-2 Crystal, 16MHz, 7pF C_0, 18pF C_L, 40 ESR, 1.01 mA/V gmcrit, 20ppm"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "ABM3-16.000MHZ-D2Y-T"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Abracon"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "535-10638-1-ND"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "815-ABM3-16-D2Y-T"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C596861"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic Part" "No"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "JLC"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created By" "Manual Entry"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e392f6c9-f5ca-44b5-b9b3-72198f20866e")
+		)
+		(pin "1"
+			(uuid "9e259645-bcf5-425f-b2b4-7fca25969fd2")
+		)
+		(instances
+			(project ""
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
+					(reference "Y502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bfr_capacitors:CL05B104KB54PNC")
 		(at 123.19 35.56 0)
 		(unit 1)
@@ -17668,121 +16873,6 @@
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
 					(reference "C502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bfr_inductors:BWVS005050404R7M00")
-		(at 264.16 39.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a07111ec-75f4-4d40-89ec-9d44304ba23c")
-		(property "Reference" "L501"
-			(at 265.43 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 265.43 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "bfr_inductors:BWVS005050404R7M00"
-			(at 264.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/DATASHEET_BWVS00505040_SERIES"
-			(at 264.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7uH 3.2A 32mOhm 5x5mm SMD Power Inductor"
-			(at 264.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "553-BWVS005050404R7M00CT-ND"
-			(at 264.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "603-BWVS5050404R7M00"
-			(at 264.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C2838218"
-			(at 264.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Basic?" "No"
-			(at 264.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order from" "Digikey"
-			(at 264.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3f12306-4705-402f-bb75-b9d1ec654c12")
-		)
-		(pin "2"
-			(uuid "ce7ef784-aed4-4408-bdda-3cbe4b1011af")
-		)
-		(instances
-			(project "DU UC V1 - Minnow"
-				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c"
-					(reference "L501")
 					(unit 1)
 				)
 			)

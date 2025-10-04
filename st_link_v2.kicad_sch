@@ -5676,7 +5676,7 @@
 		)
 		(uuid "5fc176b2-892a-4b14-8755-17c4bb816ec1")
 	)
-	(hierarchical_label "CANH_STLINK"
+	(hierarchical_label "STLINK_CAN+"
 		(shape input)
 		(at 27.94 125.73 180)
 		(effects
@@ -5797,7 +5797,7 @@
 		)
 		(uuid "ea963f9f-ed74-4755-8260-2ad17d8e4c11")
 	)
-	(hierarchical_label "CANL_STLINK"
+	(hierarchical_label "STLINK_CAN-"
 		(shape input)
 		(at 27.94 123.19 180)
 		(effects

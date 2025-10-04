@@ -889,7 +889,7 @@
 		)
 		(uuid "1ff8f950-52cd-427e-bfd0-0ff033e7ee4f")
 	)
-	(label "{CANL_STLINK, CANH_STLINK}"
+	(label "{STLINK_CAN-, STLINK_CAN+}"
 		(at 168.91 129.54 0)
 		(effects
 			(font
@@ -909,7 +909,7 @@
 		)
 		(uuid "5644eaf6-24c4-42a6-a18a-eca5aea3ed08")
 	)
-	(label "CANH_STLINK"
+	(label "STLINK_CAN+"
 		(at 222.25 106.68 0)
 		(effects
 			(font
@@ -929,7 +929,7 @@
 		)
 		(uuid "de340a19-41b5-4caf-9562-6b6a07987e10")
 	)
-	(label "CANL_STLINK"
+	(label "STLINK_CAN-"
 		(at 222.25 104.14 0)
 		(effects
 			(font
@@ -1679,26 +1679,6 @@
 				(justify left)
 			)
 		)
-		(pin "CANL_STLINK" input
-			(at 220.98 104.14 0)
-			(uuid "42a50c9a-2061-43fa-baa9-07ece5bd64ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CANH_STLINK" input
-			(at 220.98 106.68 0)
-			(uuid "d3aa57ce-e351-4b45-a4c4-b280a3793894")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MCU_SWO" input
 			(at 190.5 107.95 180)
 			(uuid "88ec889c-750d-4057-a71b-ebdc703dfe9e")
@@ -1747,6 +1727,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "STLINK_CAN+" input
+			(at 220.98 106.68 0)
+			(uuid "c06f5a25-67dd-487e-ba9b-254b3046849d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STLINK_CAN-" input
+			(at 220.98 104.14 0)
+			(uuid "089b3267-0762-4943-9882-1ddde2d22bdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
