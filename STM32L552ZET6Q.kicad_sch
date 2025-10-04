@@ -11717,6 +11717,16 @@
 		)
 		(uuid "6d456fc0-fe06-4038-a10a-2a8cc65582b3")
 	)
+	(label "{CAN2_TX,CAN2_RX}"
+		(at 191.77 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "761f66a7-e81b-4c70-80a0-9378bf31a715")
+	)
 	(label "USART1_RX"
 		(at 116.84 161.29 0)
 		(effects
