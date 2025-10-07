@@ -4262,7 +4262,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 82.55) (xy 270.51 82.55)
+			(xy 274.32 96.52) (xy 270.51 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4892,7 +4892,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 74.93) (xy 270.51 74.93)
+			(xy 274.32 88.9) (xy 270.51 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4902,7 +4902,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 77.47) (xy 270.51 77.47)
+			(xy 274.32 91.44) (xy 270.51 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5062,6 +5062,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 77.47) (xy 270.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3abdb7-0ac9-4f4f-80f9-12022fa149d1")
+	)
+	(wire
+		(pts
 			(xy 81.28 53.34) (xy 81.28 59.69)
 		)
 		(stroke
@@ -5122,7 +5132,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 80.01) (xy 270.51 80.01)
+			(xy 274.32 93.98) (xy 270.51 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5656,7 +5666,7 @@
 	)
 	(hierarchical_label "MCU_SWO"
 		(shape input)
-		(at 274.32 74.93 0)
+		(at 274.32 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5700,7 +5710,7 @@
 	)
 	(hierarchical_label "MCU_TCK"
 		(shape input)
-		(at 274.32 82.55 0)
+		(at 274.32 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5722,7 +5732,7 @@
 	)
 	(hierarchical_label "MCU_TMS"
 		(shape input)
-		(at 274.32 77.47 0)
+		(at 274.32 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5764,6 +5774,17 @@
 		)
 		(uuid "d74e7de7-b878-47a0-830a-545de34dad5f")
 	)
+	(hierarchical_label "+5V_USB"
+		(shape input)
+		(at 273.05 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de1de914-6217-4304-bf99-4b3abe9a6b37")
+	)
 	(hierarchical_label "+3V3_EXT"
 		(shape input)
 		(at 26.67 113.03 180)
@@ -5788,7 +5809,7 @@
 	)
 	(hierarchical_label "MCU_NRST"
 		(shape input)
-		(at 274.32 80.01 0)
+		(at 274.32 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10793,7 +10814,7 @@
 			)
 		)
 		(pin "MCU_SWO" input
-			(at 270.51 74.93 0)
+			(at 270.51 88.9 0)
 			(uuid "1257210d-2939-426b-bb6a-4dadf6cc6515")
 			(effects
 				(font
@@ -10843,7 +10864,7 @@
 			)
 		)
 		(pin "MCU_TMS" input
-			(at 270.51 77.47 0)
+			(at 270.51 91.44 0)
 			(uuid "d77237c1-4211-4c56-b7f3-342d739ad2f0")
 			(effects
 				(font
@@ -10853,7 +10874,7 @@
 			)
 		)
 		(pin "MCU_NRST" input
-			(at 270.51 80.01 0)
+			(at 270.51 93.98 0)
 			(uuid "fd3d3d6b-b2b4-4bb8-93de-11533bb8e1f4")
 			(effects
 				(font
@@ -10863,7 +10884,7 @@
 			)
 		)
 		(pin "MCU_TCK" input
-			(at 270.51 82.55 0)
+			(at 270.51 96.52 0)
 			(uuid "dcb24277-159e-492e-8545-9db2be69e834")
 			(effects
 				(font
@@ -10900,6 +10921,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "+5V" input
+			(at 270.51 77.47 0)
+			(uuid "97078d59-7745-419d-8e94-9256a5c992b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
