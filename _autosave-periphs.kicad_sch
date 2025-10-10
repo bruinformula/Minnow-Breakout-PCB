@@ -3912,6 +3912,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 107.95 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a28e4094-dd86-4ec9-b4a2-f054777c19dc")
+	)
 	(bus_entry
 		(at 123.19 57.15)
 		(size 2.54 -2.54)
@@ -5043,6 +5049,16 @@
 	)
 	(bus
 		(pts
+			(xy 130.81 179.07) (xy 134.62 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1389fdc2-ca6d-4336-95cf-866e88718806")
+	)
+	(bus
+		(pts
 			(xy 191.77 86.36) (xy 191.77 101.6)
 		)
 		(stroke
@@ -5263,7 +5279,7 @@
 	)
 	(bus
 		(pts
-			(xy 107.95 171.45) (xy 123.19 171.45)
+			(xy 107.95 171.45) (xy 113.03 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5451,6 +5467,16 @@
 		)
 		(uuid "4367e96f-6286-468e-93fd-b76cdece701f")
 	)
+	(bus
+		(pts
+			(xy 134.62 179.07) (xy 134.62 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443f3912-c21e-469e-a6d9-0e471abd33aa")
+	)
 	(wire
 		(pts
 			(xy 167.64 153.67) (xy 152.4 153.67)
@@ -5570,6 +5596,16 @@
 			(type default)
 		)
 		(uuid "50261aa1-88b4-4ab2-93ed-6eb8c1f8d2c6")
+	)
+	(bus
+		(pts
+			(xy 107.95 167.64) (xy 113.03 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5118c0c0-0580-4e3d-bf7f-b96196aa7b8d")
 	)
 	(wire
 		(pts
@@ -6343,6 +6379,16 @@
 	)
 	(bus
 		(pts
+			(xy 107.95 163.83) (xy 107.95 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b0ff86-797e-41ed-ae70-9b230563b51b")
+	)
+	(bus
+		(pts
 			(xy 48.26 153.67) (xy 48.26 158.75)
 		)
 		(stroke
@@ -6533,7 +6579,7 @@
 	)
 	(bus
 		(pts
-			(xy 107.95 163.83) (xy 107.95 168.91)
+			(xy 107.95 167.64) (xy 107.95 168.91)
 		)
 		(stroke
 			(width 0)
@@ -6670,6 +6716,16 @@
 			(type default)
 		)
 		(uuid "c889c8c0-c505-418e-ae1e-8c2260af41cc")
+	)
+	(bus
+		(pts
+			(xy 130.81 193.04) (xy 134.62 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4040bf-8eb8-477e-8212-bebf33b7e86b")
 	)
 	(wire
 		(pts
@@ -7051,16 +7107,6 @@
 		)
 		(uuid "0591e6c0-babf-417f-85f0-b515861f81dc")
 	)
-	(label "A1"
-		(at 90.17 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07049324-fc61-461d-824b-5124e00c57e2")
-	)
 	(label "PG3"
 		(at 29.21 46.99 0)
 		(effects
@@ -7261,6 +7307,16 @@
 		)
 		(uuid "32551df7-4111-407b-a8ad-dad27a4414f4")
 	)
+	(label "{PF_IN[12..15]}"
+		(at 111.76 171.45 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "357e222a-2254-44a7-b9f9-f46f1e6791b5")
+	)
 	(label "PF5"
 		(at 90.17 140.97 0)
 		(effects
@@ -7312,12 +7368,12 @@
 		(uuid "3f636159-d202-4921-8d17-47dc0c603bd3")
 	)
 	(label "{EN, A[0..2]}"
-		(at 110.49 171.45 0)
+		(at 134.62 179.07 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3f8eae37-a19c-4472-a9a9-56632ebf6141")
 	)
@@ -7471,6 +7527,16 @@
 		)
 		(uuid "5aef328b-7954-4d13-8350-4bfe456d00fd")
 	)
+	(label "PF_IN15"
+		(at 90.17 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bcc4bdf-9a74-4357-ab17-5e9fe7817008")
+	)
 	(label "PE4"
 		(at 30.48 135.89 0)
 		(effects
@@ -7510,16 +7576,6 @@
 			(justify left bottom)
 		)
 		(uuid "66d3c725-208d-4aba-88c2-a36779edcfc2")
-	)
-	(label "A0"
-		(at 90.17 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68f9b002-358f-4ad6-bcc4-8355803987fd")
 	)
 	(label "PB2"
 		(at 107.95 36.83 0)
@@ -7591,6 +7647,16 @@
 		)
 		(uuid "7c7012ed-de88-437f-bea3-4223640e7ba7")
 	)
+	(label "PF_IN13"
+		(at 90.17 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c9ef660-52d7-4c9f-8ff6-bf67a78c8afa")
+	)
 	(label "PC3"
 		(at 180.34 48.26 0)
 		(effects
@@ -7600,6 +7666,16 @@
 			(justify left bottom)
 		)
 		(uuid "7f6239f6-5c16-401d-8730-befe17dbfe10")
+	)
+	(label "PF_IN12"
+		(at 90.17 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83adf8e6-37d1-40dc-ac85-a5a624136e60")
 	)
 	(label "PF8"
 		(at 90.17 156.21 0)
@@ -7931,15 +8007,15 @@
 		)
 		(uuid "c4c9ae3d-4096-4af6-b09f-afb33d0b4c51")
 	)
-	(label "EN"
-		(at 90.17 176.53 0)
+	(label "PF_IN14"
+		(at 90.17 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c57fe22c-0141-48db-a1dd-108b92b5f3a2")
+		(uuid "c559dfd2-e8d9-4af2-bb7a-0f59fedcc480")
 	)
 	(label "{PG[0..6],PG9,PG10,PG[12..15]}"
 		(at 48.26 24.13 0)
@@ -7950,16 +8026,6 @@
 			(justify left bottom)
 		)
 		(uuid "c7239e77-c752-4aea-9963-3587ea0c0538")
-	)
-	(label "A2"
-		(at 90.17 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd4737fc-a56c-4f34-bc0c-9afd620d53ea")
 	)
 	(label "PA3"
 		(at 152.4 133.35 0)
@@ -8234,6 +8300,17 @@
 		)
 		(uuid "570b7b65-a31c-4f7b-a122-234583b14e78")
 	)
+	(hierarchical_label "LED_ARR_DATA"
+		(shape output)
+		(at 130.81 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57d9d9a5-cfc2-4812-a235-e9e683bcc966")
+	)
 	(hierarchical_label "PGout"
 		(shape bidirectional)
 		(at 58.42 24.13 0)
@@ -8288,17 +8365,6 @@
 			(justify left)
 		)
 		(uuid "dbe410ac-8ce0-4f91-a749-504ac9e5dff0")
-	)
-	(hierarchical_label "LED_ARR_DATA"
-		(shape output)
-		(at 123.19 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee3ae03d-6708-4a86-ba16-d05063ee0047")
 	)
 	(hierarchical_label "PCout"
 		(shape bidirectional)
@@ -12360,6 +12426,78 @@
 			(project "DU UC V1 - Minnow"
 				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/a5605b2d-f7ac-45f3-aba3-2f27c488895b"
 					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 164.465)
+		(size 17.78 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "d6247a1c-9555-43b3-8a35-a8b2db790047")
+		(property "Sheetname" "Debug LED Select"
+			(at 113.03 163.7534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_arr_sel.kicad_sch"
+			(at 113.03 182.8296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PF_IN" input
+			(at 113.03 171.45 180)
+			(uuid "d02fe87d-7385-4c25-b019-2e0d3f2c0707")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PF_OUT" output
+			(at 113.03 167.64 180)
+			(uuid "00716492-a07d-43b5-aa6b-b64cc8f872b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_ARR_DATA" output
+			(at 130.81 179.07 0)
+			(uuid "202e3dd1-3eb2-46f5-b950-e45d816504a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DU UC V1 - Minnow"
+				(path "/0aeff2df-21bc-4c76-95d6-83ff8577a8db/479988e2-73e3-4e6d-8b3c-5b8d2874850c/a5605b2d-f7ac-45f3-aba3-2f27c488895b"
+					(page "17")
 				)
 			)
 		)

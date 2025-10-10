@@ -139,7 +139,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -668,10 +668,6 @@
     [
       "6eee486e-5e34-4cea-9fac-db43d5ed61fb",
       "Debug LED Array"
-    ],
-    [
-      "d6247a1c-9555-43b3-8a35-a8b2db790047",
-      "Debug LED Select"
     ],
     [
       "4ff1d624-7928-4a37-b9f4-23ab6feb6628",
