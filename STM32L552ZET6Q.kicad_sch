@@ -10245,6 +10245,16 @@
 		)
 		(uuid "0b7c9c8d-033a-4830-a0b4-91113a7ec25b")
 	)
+	(text "this is to power external usb hub"
+		(exclude_from_sim no)
+		(at 36.068 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86398eac-8eb8-4b6a-afde-dadb786a223c")
+	)
 	(text "maybe i should add a sd card slot...\nmight be hard w m.2 form factor bc edge skinny"
 		(exclude_from_sim no)
 		(at 284.988 174.244 0)
