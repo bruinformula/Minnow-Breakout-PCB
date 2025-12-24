@@ -5350,7 +5350,7 @@
 		)
 		(uuid "1a8ad2f3-1162-44da-b8aa-9f77b1224952")
 	)
-	(label "STLINK_WRITE.nRST"
+	(label "STLINK_WRITE.nJRST"
 		(at 234.95 80.01 180)
 		(effects
 			(font
@@ -5520,7 +5520,7 @@
 		)
 		(uuid "8ba6b714-8206-4238-9e12-4c2e1b0c7bc2")
 	)
-	(label "STLINK_WRITE{SWO nRST JTCK JTMS}"
+	(label "STLINK_WRITE{SWO nJRST JTCK JTMS}"
 		(at 160.02 92.71 0)
 		(effects
 			(font
@@ -5570,7 +5570,7 @@
 		)
 		(uuid "b3272a6f-d40e-4438-81df-a979f7e8f596")
 	)
-	(label "STLINK_WRITE.nRST"
+	(label "STLINK_WRITE.nJRST"
 		(at 134.62 97.79 0)
 		(effects
 			(font
@@ -5719,6 +5719,17 @@
 		)
 		(uuid "9d7b5bd5-6ff2-4c20-93d6-f2c2716c7b5a")
 	)
+	(hierarchical_label "+3V3_EXT"
+		(shape input)
+		(at 223.52 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ecd559c-06ff-418a-90ea-3a218f6f53db")
+	)
 	(hierarchical_label "MCO"
 		(shape input)
 		(at 184.15 74.93 0)
@@ -5807,7 +5818,7 @@
 		)
 		(uuid "e9d95b8c-607b-46eb-bf84-e576adeac5f9")
 	)
-	(hierarchical_label "MCU_NRST"
+	(hierarchical_label "MCU_NJRST"
 		(shape input)
 		(at 274.32 93.98 0)
 		(effects
@@ -10833,7 +10844,7 @@
 				(justify left)
 			)
 		)
-		(pin "STLINK_WRITE_nRST" input
+		(pin "STLINK_WRITE_nJRST" input
 			(at 234.95 80.01 180)
 			(uuid "ea13be85-b85d-4e78-a1bf-ede68d36dd97")
 			(effects
@@ -10873,7 +10884,7 @@
 				(justify right)
 			)
 		)
-		(pin "MCU_NRST" input
+		(pin "MCU_NJRST" input
 			(at 270.51 93.98 0)
 			(uuid "fd3d3d6b-b2b4-4bb8-93de-11533bb8e1f4")
 			(effects

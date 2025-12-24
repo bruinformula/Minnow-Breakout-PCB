@@ -1939,16 +1939,6 @@
 		)
 		(uuid "6957aa4e-9983-49ab-ba75-b52b97c9ceaf")
 	)
-	(label "A1"
-		(at 121.92 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90e7d0de-0f3f-4d1a-862e-4c414ec2eb34")
-	)
 	(label "EN"
 		(at 88.9 95.25 0)
 		(effects

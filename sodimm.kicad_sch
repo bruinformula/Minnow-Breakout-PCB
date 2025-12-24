@@ -11484,6 +11484,12 @@
 		(uuid "19ce4268-0d3a-457c-aaa5-53ecea23bd0a")
 	)
 	(junction
+		(at 323.85 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29fba9ae-48a7-4aed-9d9c-590b24cdf2db")
+	)
+	(junction
 		(at 72.39 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11508,16 +11514,10 @@
 		(uuid "46a3fb35-ae16-401b-b086-d20b4f9e1ba0")
 	)
 	(junction
-		(at 323.85 187.96)
+		(at 323.85 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47270365-4d6f-4d22-983f-060a8c41cf2c")
-	)
-	(junction
-		(at 323.85 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47c88983-5f55-4f01-b27f-bd1c6daf50a9")
+		(uuid "4ec06d2f-adfe-4d5c-9b26-b15e9985b71a")
 	)
 	(junction
 		(at 107.95 43.18)
@@ -11530,12 +11530,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "557a0c6d-9a4f-4512-9a87-f6188edc5da7")
-	)
-	(junction
-		(at 323.85 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "581a200f-394a-446b-8b76-97f61bb6781c")
 	)
 	(junction
 		(at 72.39 50.8)
@@ -11574,22 +11568,28 @@
 		(uuid "c3064592-66e5-4150-b97b-bf397df6f081")
 	)
 	(junction
+		(at 323.85 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c575dcaf-46a1-43a7-a488-487982a638ce")
+	)
+	(junction
 		(at 288.29 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c581aa31-a888-45b9-b715-c44381f0759a")
 	)
 	(junction
+		(at 323.85 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb71aa7d-eb79-43a1-bdbf-a65dd53ed916")
+	)
+	(junction
 		(at 107.95 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccae0e93-3674-44be-b810-96d322e6f947")
-	)
-	(junction
-		(at 323.85 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbeacdae-ee32-44ca-a3bb-99b07fd7f5bb")
 	)
 	(junction
 		(at 72.39 55.88)
@@ -12621,6 +12621,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 198.12) (xy 323.85 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101d6633-ce1d-4a1b-93bc-5185a1a3e3f5")
+	)
+	(wire
+		(pts
 			(xy 65.405 38.1) (xy 65.405 35.56)
 		)
 		(stroke
@@ -12738,6 +12748,16 @@
 			(type default)
 		)
 		(uuid "19e23ed7-a735-4f46-be5c-7d4c2e373064")
+	)
+	(wire
+		(pts
+			(xy 323.85 185.42) (xy 323.85 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e6cdc2-d605-42a4-abe0-c204a364f842")
 	)
 	(wire
 		(pts
@@ -12871,16 +12891,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 185.42) (xy 323.85 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a2aa3b2-1701-4df7-9884-3e36a0cf1ef1")
-	)
-	(wire
-		(pts
 			(xy 96.52 196.85) (xy 111.76 196.85)
 		)
 		(stroke
@@ -13008,16 +13018,6 @@
 			(type default)
 		)
 		(uuid "38c9fd90-ff37-4479-8de4-b237486bd68f")
-	)
-	(wire
-		(pts
-			(xy 323.85 200.66) (xy 334.01 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bf05fd8-27d6-4c89-be07-59eece211a49")
 	)
 	(wire
 		(pts
@@ -13198,16 +13198,6 @@
 			(type default)
 		)
 		(uuid "4ac2c98f-62c1-4f9c-9833-e8678588401f")
-	)
-	(wire
-		(pts
-			(xy 323.85 182.88) (xy 331.47 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f1f5eaa-ca73-4367-9db6-caa8b143e455")
 	)
 	(wire
 		(pts
@@ -13431,16 +13421,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 182.88) (xy 323.85 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf2e92b-19f7-424b-9ef0-626012b978d8")
-	)
-	(wire
-		(pts
 			(xy 96.52 191.77) (xy 111.76 191.77)
 		)
 		(stroke
@@ -13649,6 +13629,16 @@
 		)
 		(uuid "7c2cf9aa-c14e-4ee1-ad6d-d9c18226bbec")
 	)
+	(wire
+		(pts
+			(xy 323.85 200.66) (xy 323.85 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c523f74-c508-4c51-b414-bd890ed363cf")
+	)
 	(bus
 		(pts
 			(xy 54.61 76.2) (xy 54.61 81.28)
@@ -13658,16 +13648,6 @@
 			(type default)
 		)
 		(uuid "7d41c464-1724-427f-9e4c-614f1457bb79")
-	)
-	(wire
-		(pts
-			(xy 323.85 187.96) (xy 323.85 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d55d949-faf0-4904-b2b4-a075a5f36118")
 	)
 	(bus
 		(pts
@@ -13808,6 +13788,16 @@
 			(type default)
 		)
 		(uuid "8c05de4d-7ef0-486a-92be-9f30b92443e1")
+	)
+	(wire
+		(pts
+			(xy 323.85 195.58) (xy 323.85 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c268cfc-f343-4e04-96c9-3eb6a04cba95")
 	)
 	(wire
 		(pts
@@ -14038,6 +14028,16 @@
 			(type default)
 		)
 		(uuid "9b25972b-3457-4464-9a27-9299fb096d1b")
+	)
+	(wire
+		(pts
+			(xy 323.85 182.88) (xy 334.01 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d17f63d-4992-4f86-81e6-9f53fc1b051a")
 	)
 	(bus
 		(pts
@@ -14351,16 +14351,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 203.2) (xy 323.85 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b942b78e-d0b2-4fcf-9707-53f3ee88cdce")
-	)
-	(wire
-		(pts
 			(xy 107.95 38.1) (xy 107.95 40.64)
 		)
 		(stroke
@@ -14668,6 +14658,16 @@
 			(type default)
 		)
 		(uuid "dc86cb96-3a1c-46a5-88a2-b90c02c8bd29")
+	)
+	(wire
+		(pts
+			(xy 323.85 195.58) (xy 331.47 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2c2805-cb66-40f1-a96d-f7d749ccd0f1")
 	)
 	(bus
 		(pts
@@ -16484,6 +16484,17 @@
 		)
 		(uuid "53de0aa7-25bf-4619-b3ff-d6a448c63dd1")
 	)
+	(hierarchical_label "VREF"
+		(shape input)
+		(at 334.01 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5afe4a75-acb5-473c-8eab-bbe9b966ebf9")
+	)
 	(hierarchical_label "PD"
 		(shape bidirectional)
 		(at 177.7266 201.93 0)
@@ -16638,17 +16649,6 @@
 		)
 		(uuid "b9fccb09-11f9-4e87-8217-2cf0b03d5e52")
 	)
-	(hierarchical_label "VREF"
-		(shape input)
-		(at 334.01 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "be76cded-a022-4366-9890-2dcd46d10ecd")
-	)
 	(hierarchical_label "PF"
 		(shape bidirectional)
 		(at 76.2 173.99 180)
@@ -16659,6 +16659,17 @@
 			(justify right)
 		)
 		(uuid "c1f7a415-003b-40af-92ab-0ea4b4b70213")
+	)
+	(hierarchical_label "VDDIO"
+		(shape input)
+		(at 331.47 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c698be0e-c172-4f99-a019-82091fddfeef")
 	)
 	(hierarchical_label "PC"
 		(shape bidirectional)
@@ -16736,17 +16747,6 @@
 			(justify right)
 		)
 		(uuid "efda8f4a-2414-4d31-b427-031dab4592c6")
-	)
-	(hierarchical_label "VDDIO"
-		(shape input)
-		(at 331.47 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f10509c9-284c-4217-ad3a-5edfc43484e7")
 	)
 	(hierarchical_label "PC"
 		(shape bidirectional)
@@ -17632,6 +17632,15 @@
 		)
 		(property "Alternates" "https://www.digikey.com/en/products/filter/inline-module-sockets/413?s=N4IgjCBcoBwAwWiAxlAZgQwDYGcCmANCAPZQDaIALHJTDAGwgC6RADgC5QgDK7ATgEsAdgHMQAXyIAmKZQCsUUKkiZchEuRBT6cZm06QQAOQCuAWzyDUkkAFopilFH4n1pSBQVMbtgJyPlFzdNCG8bRiQBABMuWzAEEH0uRJB2AE9WPC4MHGtxIA"
 			(at 539.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Conector" "https://www.digikey.com/en/products/detail/attend-technology/124A-92A03/23626203?s=N4IgTCBcDaIIxgCwEEC0BOMyAMBmEAugL5A"
+			(at 344.17 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21118,7 +21127,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 323.85 198.12 90)
+		(at 323.85 193.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21127,7 +21136,7 @@
 		(fields_autoplaced yes)
 		(uuid "57b22107-871f-4c95-90aa-99e2ae7a4f87")
 		(property "Reference" "#PWR0290"
-			(at 330.2 198.12 0)
+			(at 330.2 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21136,7 +21145,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 327.66 198.1199 90)
+			(at 327.66 193.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21145,7 +21154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 198.12 0)
+			(at 323.85 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21154,7 +21163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 198.12 0)
+			(at 323.85 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21163,7 +21172,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 323.85 198.12 0)
+			(at 323.85 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23943,7 +23952,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 323.85 195.58 90)
+		(at 323.85 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23952,7 +23961,7 @@
 		(fields_autoplaced yes)
 		(uuid "af0d3641-90e4-468d-b68e-82894d79f72c")
 		(property "Reference" "#PWR0289"
-			(at 330.2 195.58 0)
+			(at 330.2 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23961,7 +23970,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 327.66 195.5799 90)
+			(at 327.66 190.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23970,7 +23979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 195.58 0)
+			(at 323.85 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23979,7 +23988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 195.58 0)
+			(at 323.85 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23988,7 +23997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 323.85 195.58 0)
+			(at 323.85 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24472,6 +24481,15 @@
 		)
 		(property "Alternates" "https://www.digikey.com/en/products/filter/inline-module-sockets/413?s=N4IgjCBcoBwAwWiAxlAZgQwDYGcCmANCAPZQDaIALHJTDAGwgC6RADgC5QgDK7ATgEsAdgHMQAXyIAmKZQCsUUKkiZchEuRBT6cZm06QQAOQCuAWzyDUkkAFopilFH4n1pSBQVMbtgJyPlFzdNCG8bRiQBABMuWzAEEH0uRJB2AE9WPC4MHGtxIA"
 			(at 285.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Conector" "https://www.digikey.com/en/products/detail/attend-technology/124A-92A03/23626203?s=N4IgTCBcDaIIxgCwEEC0BOMyAMBmEAugL5A"
+			(at 90.17 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25395,6 +25413,15 @@
 		)
 		(property "Alternates" "https://www.digikey.com/en/products/filter/inline-module-sockets/413?s=N4IgjCBcoBwAwWiAxlAZgQwDYGcCmANCAPZQDaIALHJTDAGwgC6RADgC5QgDK7ATgEsAdgHMQAXyIAmKZQCsUUKkiZchEuRBT6cZm06QQAOQCuAWzyDUkkAFopilFH4n1pSBQVMbtgJyPlFzdNCG8bRiQBABMuWzAEEH0uRJB2AE9WPC4MHGtxIA"
 			(at 501.65 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Conector" "https://www.digikey.com/en/products/detail/attend-technology/124A-92A03/23626203?s=N4IgTCBcDaIIxgCwEEC0BOMyAMBmEAugL5A"
+			(at 306.07 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27139,6 +27166,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mating Conector" "https://www.digikey.com/en/products/detail/attend-technology/124A-92A03/23626203?s=N4IgTCBcDaIIxgCwEEC0BOMyAMBmEAugL5A"
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "142"
 			(uuid "01b7199e-f973-4aba-8768-5ab7a13fe764")
 		)
@@ -28270,7 +28306,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 323.85 193.04 90)
+		(at 323.85 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28279,7 +28315,7 @@
 		(fields_autoplaced yes)
 		(uuid "d07a4092-df8b-4116-8001-765639b43897")
 		(property "Reference" "#PWR0288"
-			(at 330.2 193.04 0)
+			(at 330.2 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28288,7 +28324,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 327.66 193.0399 90)
+			(at 327.66 187.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28297,7 +28333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 193.04 0)
+			(at 323.85 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28306,7 +28342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 193.04 0)
+			(at 323.85 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28315,7 +28351,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 323.85 193.04 0)
+			(at 323.85 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29606,6 +29642,15 @@
 		)
 		(property "Alternates" "https://www.digikey.com/en/products/filter/inline-module-sockets/413?s=N4IgjCBcoBwAwWiAxlAZgQwDYGcCmANCAPZQDaIALHJTDAGwgC6RADgC5QgDK7ATgEsAdgHMQAXyIAmKZQCsUUKkiZchEuRBT6cZm06QQAOQCuAWzyDUkkAFopilFH4n1pSBQVMbtgJyPlFzdNCG8bRiQBABMuWzAEEH0uRJB2AE9WPC4MHGtxIA"
 			(at 325.12 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Conector" "https://www.digikey.com/en/products/detail/attend-technology/124A-92A03/23626203?s=N4IgTCBcDaIIxgCwEEC0BOMyAMBmEAugL5A"
+			(at 129.54 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

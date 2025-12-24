@@ -2142,7 +2142,7 @@
 		)
 		(uuid "fcfea247-6d26-4b98-91f4-9be73b566ac3")
 	)
-	(hierarchical_label "MCU_NRST"
+	(hierarchical_label "MCU_NJRST"
 		(shape input)
 		(at 59.69 96.52 180)
 		(effects
@@ -2241,7 +2241,7 @@
 		)
 		(uuid "ce4ff562-1c3c-4ab5-9125-3f137b849eed")
 	)
-	(hierarchical_label "MCU_NRST"
+	(hierarchical_label "MCU_NJRST"
 		(shape input)
 		(at 139.7 62.23 180)
 		(effects
@@ -2307,7 +2307,7 @@
 		)
 		(uuid "eb712f4e-7e02-430f-80ca-d83e410e2e21")
 	)
-	(hierarchical_label "STLINK_WRITE_nRST"
+	(hierarchical_label "STLINK_WRITE_nJRST"
 		(shape input)
 		(at 127 100.33 180)
 		(effects
